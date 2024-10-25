@@ -53,7 +53,8 @@ jobs:
 
     - name: 去重
       run: |
-        sort -u v2ray.txt -o v2ray.txt
+        sort -u v2ray.txt > vpn.txt
+        mv vpn.txt v2ray.txt
 
     - name: Commit and push if there are changes
       run: |
