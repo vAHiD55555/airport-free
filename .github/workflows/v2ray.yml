@@ -21,6 +21,7 @@ jobs:
     - name: 依赖
       run: |
         # 各种模块
+        pip install --upgrade pip
         pip install requests
         pip install datetime
         pip install base64
