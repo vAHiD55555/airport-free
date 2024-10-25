@@ -32,9 +32,14 @@ jobs:
         rm -f v2ray/naidounode.txt || ture
         rm -f v2ray/nodefree.txt || ture
         rm -f v2ray/nodev2ray.txt || ture
-        rm -f v2ray/nodev2ray8.txt || ture
         rm -f v2ray/v2rayshare.txt || ture
+        rm -f v2ray/v2rayshare8.txt || ture
         rm -f v2ray/wenode.txt || ture
+
+
+    - name: 删除旧生成的文件
+      run: touch v2ray
+      
         
 
     - name: 运行并输出结果v2
@@ -42,8 +47,8 @@ jobs:
         python nodes/v2/naidounode.py > v2ray/naidounode.txt
         python nodes/v2/nodefree.py > v2ray/nodefree.txt
         python nodes/v2/nodev2ray.py > v2ray/nodev2ray.txt
-        python nodes/v2/nodev2ray8.py > v2ray/nodev2ray8.txt
         python nodes/v2/v2rayshare.py > v2ray/v2rayshare.txt
+        python nodes/v2/v2rayshare8.py > v2ray/v2rayshare8.txt
         python nodes/v2/wenode.py > v2ray/wenode.txt
         python nodes/v2/update.py > v2ray/update.txt
 
