@@ -24,7 +24,7 @@ jobs:
         pip install --upgrade pip
         pip install requests
         pip install datetime
-        pip install base64
+        #pip install base64
 
 
     - name: 删除旧生成的文件
