@@ -51,6 +51,10 @@ jobs:
     - name: 合并结果vpn
       run: cat v2ray/update.txt v2ray/naidounode.txt v2ray/nodefree.txt v2ray/nodev2ray.txt v2ray/nodev2ray8.txt v2ray/v2rayshare.txt v2ray/wenode.txt > v2ray.txt
 
+    - name: 去重
+      run: |
+        sort -u v2ray.txt
+        -o v2ray.txt
 
     - name: Commit and push if there are changes
       run: |
