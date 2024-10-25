@@ -29,32 +29,34 @@ jobs:
 
     - name: 删除旧生成的文件
       run: |
-        rm -f v2ray/naidounode.txt || ture
-        rm -f v2ray/nodefree.txt || ture
-        rm -f v2ray/nodev2ray.txt || ture
-        rm -f v2ray/nodev2ray8.txt || ture
-        rm -f v2ray/v2rayshare.txt || ture
-        rm -f v2ray/wenode.txt || ture
+        rm -f v2ray/1.txt || ture
+        rm -f v2ray/2.txt || ture
+        rm -f v2ray/3.txt || ture
+        rm -f v2ray/4.txt || ture
+        rm -f v2ray/5.txt || ture
+        rm -f v2ray/6.txt || ture
       
 
     - name: 运行并输出结果v2
       run: |
-        python nodes/v2/naidounode.py > v2ray/naidounode.txt
-        python nodes/v2/nodefree.py > v2ray/nodefree.txt
-        python nodes/v2/nodev2ray.py > v2ray/nodev2ray.txt
-        python nodes/v2/nodev2ray8.py > v2ray/nodev2ray8.txt
-        python nodes/v2/v2rayshare.py > v2ray/v2rayshare.txt
-        python nodes/v2/wenode.py > v2ray/wenode.txt
         python nodes/v2/update.py > v2ray/update.txt
+        python nodes/v2/naidounode.py > v2ray/1.txt
+        python nodes/v2/nodefree.py > v2ray/2.txt
+        python nodes/v2/nodev2ray.py > v2ray/3.txt
+        python nodes/v2/nodev2ray8.py > v2ray/4.txt
+        python nodes/v2/v2rayshare.py > v2ray/5.txt
+        python nodes/v2/wenode.py > v2ray/6.txt
+
 
         
     - name: 合并结果vpn
-      run: cat v2ray/update.txt v2ray/naidounode.txt v2ray/nodefree.txt v2ray/nodev2ray.txt v2ray/nodev2ray8.txt v2ray/v2rayshare.txt v2ray/wenode.txt > v2ray.txt
+      run: cat v2ray/1.txt v2ray/2.txt v2ray/3.txt v2ray/4.txt v2ray/5.txt v2ray/6.txt v2ray/update.txt > v2ray.txt
 
     - name: 去重
       run: |
         sort -u v2ray.txt > vpn.txt
         mv vpn.txt v2ray.txt
+        rm -f v2ray/update.txt || ture
 
     - name: Commit and push if there are changes
       run: |
