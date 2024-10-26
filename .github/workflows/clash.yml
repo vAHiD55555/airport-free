@@ -48,11 +48,11 @@ jobs:
       run: |
         python v2ray/v2ray.py > v2raymd.txt
         # echo "::set-output name=resultv2ray::$(cat v2raymd.txt)"
-        resultv2ray = $(cat v2raymd.txt)
+        resultv2ray=$(cat v2raymd.txt)
         sed -i "s/<v2ray_list>/$resultv2ray/" README.md
         python clash/clash.py > clashmd.txt
         # echo "::set-output name=resultclash::$(cat clashmd.txt)"
-        resultclash = $(cat clashmd.txt)
+        resultclash=$(cat clashmd.txt)
         sed -i "s/<clash_list>/$resultclash/" README.md
         rm -f v2raymd.txt || ture
         rm -f clashmd.txt || ture
