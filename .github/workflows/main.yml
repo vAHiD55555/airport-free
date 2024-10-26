@@ -45,7 +45,7 @@ jobs:
     - name: 遍历运行py脚本并输出文本 clash
       run: |
         for file in nodes/clash/*.py;do
-        py_name=$(basename $file .txt)
+        py_name=$(basename $file .py)
         python "$file" > "clash/${py_name}.txt"
         done
 
