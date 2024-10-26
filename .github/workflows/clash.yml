@@ -28,7 +28,7 @@ jobs:
 
     - name: 删除旧生成的文件
       run: |
-        rm -f clash/* || ture
+        rm -f clash/*.txt || ture
 
 
     - name: 遍历运行py脚本并输出文本
