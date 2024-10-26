@@ -1,5 +1,5 @@
-## airport-free
-# 免费节点，每6h自动更新订阅
+# airport-free
+## 免费节点，每6h自动更新订阅
 |v2ray节点|clash节点|
 |:-------:|:-------:|
 |[v2ray 多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)|[集合1](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/1.txt")|
@@ -9,3 +9,6 @@
 |[集合4](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/4.txt")|[集合5](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/5.txt")|
 |[集合5](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/5.txt")|
 |[集合6](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/6.txt")|
+
+- v2ray更新时间：`<v2ray_update>`
+- clash更新时间：`<clash_update>`
