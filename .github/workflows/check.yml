@@ -17,8 +17,8 @@ jobs:
 
       - name: 遍历运行py脚本并输出文本clash
         run: |
-          #rm -f README.md || ture
-          cp /nodes/README.md README.md
+          rm -f README.md || ture
+          #cp /nodes/README.md README.md
           for file in clash/*.txt;do
           cat [$(base $file .txt)](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/$(dirname $file)) > README.md
           done
