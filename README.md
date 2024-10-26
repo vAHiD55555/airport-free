@@ -4,8 +4,6 @@
   <tr>
     <td>
 <p align="center">v2ray节点</p>
-  </td>
-   <td>
 <a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt" alt="v2ray 多合一" />v2ray 多合一
 <a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/1.txt" alt="1" />
 <a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/2.txt" alt="2" />
