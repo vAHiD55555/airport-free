@@ -53,6 +53,12 @@ proxies:
   port: 3389
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
+- name: "视频号挂机挣米：121234.top"
+  type: "ss"
+  server: "38.75.137.42"
+  port: 3389
+  cipher: "aes-256-gcm"
+  password: "Y6R9pAtvxxzmGC"
 - name: "🇺🇸_US_美国_1"
   type: "ss"
   server: "23.157.40.113"
