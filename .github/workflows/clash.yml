@@ -38,8 +38,8 @@ jobs:
 
     - name: 遍历运行py脚本
       run: |
-        for file in nodes/v2/*;do
-        py_name=$(basename"$file".py)
+        for file in nodes/v2/*.py;do
+        py_name=$(basename $file .txt)
         python "$file" > "clash/${py_name}.txt"
         done
 
