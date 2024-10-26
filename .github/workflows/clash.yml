@@ -38,16 +38,22 @@ jobs:
         python "$file" > "clash/${py_name}.txt"
         done
 
+
+    - name: copy README.md
+      run: |
+        cp nodes/README.md README.md
         
 
-    - name: 运行并输出结果clash
+    - name: README.md内容输出（以防clash和v2ray二缺一，都给运行了，无论早晚都是最新的）
       run: |
-        #python nodes/clash/naidounode.py > clash/1.txt
-        #python nodes/clash/nodefree.py > clash/2.txt
-        #python nodes/clash/nodev2ray.py > clash/3.txt
-        #python nodes/clash/v2rayshare.py > clash/4.txt
-        #python nodes/clash/wenode.py > clash/5.txt
-        
+        python v2ray/v2ray.py > v2raymd.txt
+        echo "::set-output name=resultv2ray::$(<v2raymd.txt)"
+        sed -i "s/<v2ray_list>/$resultv2ray/" README.md
+        python clash/clash.py > clashmd.txt
+        echo "::set-output name=resultclash::$(clashmd.txt)"
+        sed -i "s/<clash_list>/$resultclash/" README.md
+        rm -f v2raymd.txt || ture
+        rm -f clashmd.txt || ture
 
 
     - name: Commit and push if there are changes
