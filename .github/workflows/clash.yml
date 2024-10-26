@@ -46,8 +46,10 @@ jobs:
 
     - name: README.md内容输出（以防clash和v2ray二缺一，都给运行了，无论早晚都是最新的）
       run: |
-        RESULTV2RAY=$(python v2ray/v2ray.py)
-        RESULTCLASH=$(python clash/clash.py)
+        python v2ray/v2ray.py > v2raymd.txt
+        python clash/clash.py > clashmd.txt
+        RESULTV2RAY=$(<v2raymd.txt)
+        RESULTCLASH=$(<clashmd.txt)
         sed -i 's|<v2ray_list>|'"${RESULTV2RAY}"'|g' README.md
         sed -i 's|<clash_list>|'"${RESULTCLASH}"'|g' README.md
 
