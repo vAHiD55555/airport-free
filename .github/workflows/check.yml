@@ -1,4 +1,4 @@
-name: README 实时更新
+name: README 实时更新节点
 
 on:
   push:
