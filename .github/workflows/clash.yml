@@ -61,6 +61,25 @@ jobs:
         sed -i "/<clash_list>/c\\$list" README.md # Replace <v2ray_list> in README.md
 
 
+    - name: README.md内容输出 v2ray
+      run: |
+        cd v2ray/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/$file\">v2ray节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
+        cd ..
+        sed -i "/<v2ray_list>/c\\$list" README.md
+
+
+        
+
+
 
     - name: Commit and push if there are changes
       run: |
