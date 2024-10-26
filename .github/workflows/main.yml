@@ -1,4 +1,4 @@
-name: clash节点
+name: 节点更新
 
 on:
   schedule:
