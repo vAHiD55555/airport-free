@@ -77,7 +77,10 @@ jobs:
         sed -i "/<v2ray_list>/c\\$list" README.md
 
 
-        
+    - name: README.md时间更新
+      run: |
+        TIME=$(date -u -d "+8 hours" '+%Y-%m-%d %H:%M:%S')
+          sed -i "s/<update_time>/$TIME/" README.md
 
 
 
