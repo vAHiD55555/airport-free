@@ -28,17 +28,12 @@ jobs:
 
     - name: 删除旧生成的文件
       run: |
-        #rm -f clash/1.txt || ture
-        #rm -f clash/2.txt || ture
-        #rm -f clash/3.txt || ture
-        #rm -f clash/4.txt || ture
-        #rm -f clash/5.txt || ture
         rm -f clash/* || ture
 
 
-    - name: 遍历运行py脚本
+    - name: 遍历运行py脚本并输出文本
       run: |
-        for file in nodes/v2/*.py;do
+        for file in nodes/clash/*.py;do
         py_name=$(basename $file .txt)
         python "$file" > "clash/${py_name}.txt"
         done
