@@ -40,7 +40,7 @@ jobs:
       run: |
         for file in nodes/v2/*.py;do
         py_name=$(basename"$file".py)
-        python "$file" > "v2ray/${py_name}.txt"
+        python "$file" > "clash/${py_name}.txt"
         done
 
         
