@@ -1,0 +1,66 @@
+name: clash节点
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" 
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: 安装 Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: 依赖
+      run: |
+        # 各种模块
+        pip install --upgrade pip
+        pip install requests
+        pip install datetime
+
+
+    - name: 删除旧生成的文件
+      run: |
+        rm -f clash/1.txt || ture
+        rm -f clash/2.txt || ture
+        rm -f clash/3.txt || ture
+        rm -f clash/4.txt || ture
+        rm -f clash/5.txt || ture
+        rm -f clash/6.txt || ture
+      
+
+    - name: 运行并输出结果clash
+      run: |
+        python nodes/v2/update.py > clash/update.txt
+        python nodes/clash/naidounode.py > clash/1.txt
+        python nodes/clash/nodefree.py > clash/2.txt
+        python nodes/clash/nodev2ray.py > clash/3.txt
+        python nodes/clash/nodev2ray8.py > clash/4.txt
+        python nodes/clash/v2rayshare.py > clash/5.txt
+        python nodes/clash/wenode.py > clash/6.txt
+
+
+        
+    - name: 合并结果vpn
+      run: cat clash/update.txt clash/1.txt clash/2.txt clash/3.txt clash/4.txt clash/5.txt clash/6.txt > clash.txt
+
+    - name: 删除update.txt
+      run: rm -f clash/update.txt || ture
+
+    - name: Commit and push if there are changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        if [[ `git status --porcelain` ]]; then
+          git commit -m "clash节点列表" && git push
+        else
+          echo "No changes to commit."
+        fi
