@@ -38,7 +38,7 @@ jobs:
 
     - name: 运行并输出结果clash
       run: |
-        python nodes/v2/update.py > clash/update.txt
+        #python nodes/v2/update.py > clash/update.txt
         python nodes/clash/naidounode.py > clash/1.txt
         python nodes/clash/nodefree.py > clash/2.txt
         python nodes/clash/nodev2ray.py > clash/3.txt
@@ -47,8 +47,8 @@ jobs:
 
 
         
-    - name: 合并结果vpn
-      run: cat clash/update.txt clash/1.txt clash/2.txt clash/3.txt clash/4.txt clash/5.txt > clash.txt
+   # - name: 合并结果vpn
+   #   run: cat clash/update.txt clash/1.txt clash/2.txt clash/3.txt clash/4.txt clash/5.txt > clash.txt
 
     - name: 删除update.txt
       run: rm -f clash/update.txt || ture
