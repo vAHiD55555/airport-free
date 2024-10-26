@@ -18,7 +18,7 @@ jobs:
       - name: Update README.md
         run: |
           cp nodes/README.md README.md
-          TIME=$(date -u -d "+8 hours" '+%Y-%m-%dT%H:%M:%SZ')
+          TIME=$(date -u -d "+8 hours" '+%Y-%m-%d %H:%M:%S')
           sed -i "s/<update_time>/$TIME/" README.md
 
       - name: Commit and push if changed
