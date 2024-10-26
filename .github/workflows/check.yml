@@ -16,7 +16,7 @@ jobs:
           rm -f README.md || ture
           #cp /nodes/README.md README.md
           for file in clash/*.txt;do
-          cat [$(base $file .txt)](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/$(dirname $file)) > README.md
+          cat [$(base $file .txt)](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/"$(dirname $file)") > README.md
           done
 
       - name: Commit and push if changed
