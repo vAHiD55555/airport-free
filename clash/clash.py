@@ -11,4 +11,6 @@ txt_files = [entry for entry in entries if entry.endswith('.txt')]
 
 # 打印所有.txt文件的路径，只在文件名前加上斜杠 '/'
 for i,txt_file in enumerate(txt_files,start=1):
-    print(f'<td align="center"><a href="https://github.com/xiaoji235/airport-free/blob/main/clash/{txt_file}">clash 机场{i}</a></td>')
+    result = f'<td align="center"><a href="https://github.com/xiaoji235/airport-free/blob/main/v2ray/{txt_file}">v2ray 机场{i}</a></td>'
+    print(result)
+    
