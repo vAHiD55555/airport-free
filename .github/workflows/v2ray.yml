@@ -39,7 +39,6 @@ jobs:
 
     - name: 运行并输出结果v2
       run: |
-        python nodes/v2/update.py > v2ray/update.txt
         python nodes/v2/naidounode.py > v2ray/1.txt
         python nodes/v2/nodefree.py > v2ray/2.txt
         python nodes/v2/nodev2ray.py > v2ray/3.txt
@@ -50,7 +49,7 @@ jobs:
 
         
     - name: 合并结果vpn
-      run: cat v2ray/update.txt v2ray/1.txt v2ray/2.txt v2ray/3.txt v2ray/4.txt v2ray/5.txt v2ray/6.txt > v2ray.txt
+      run: cat v2ray/1.txt v2ray/2.txt v2ray/3.txt v2ray/4.txt v2ray/5.txt v2ray/6.txt > v2ray.txt
 
     - name: 去重
       run: |
