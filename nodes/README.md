@@ -17,7 +17,7 @@
 - 只需将clash的py脚本存放到 node/clash/ 当中后前往 <strong>action</strong> 运行workflow即可看到输出结果。
 
 ## 说明
-- 本源码已默认添加了6个源，每隔3个小时自动检测更新，如果有新源欢迎到issues投稿！
+- 本源码已默认添加了6个节点源，每隔3个小时自动检测更新，如果有新源欢迎到issues投稿！
 - 修改README.md请前往：<strong>nodes/README.md</strong>
   
 ## 提示
