@@ -1,7 +1,7 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间：`2024-10-26 23:07:26`
+- 更新时间：`2024-10-26 23:09:09`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个）
 <table style="width:90%">
 <tr><td>v2ray</td>
