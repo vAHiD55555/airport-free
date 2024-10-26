@@ -5,8 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'v2ray/**'
-      - 'clash/**'
+      - 'v2ray/**,clash/**'
 
 
 jobs:
