@@ -28,7 +28,7 @@ jobs:
 
     - name: 删除旧生成的文件
       run: |
-        rm -f v2ray/* || ture
+        rm -f v2ray/*.txt || ture
 
 
     - name: 遍历运行py脚本并输出文本
