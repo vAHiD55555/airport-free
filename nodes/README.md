@@ -13,7 +13,7 @@
 </table>
 
 ## 特点
-- 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 [action](https://github.com/<username>/airport-free/tree/main/.github/workflows) 即可看到输出结果。
+- 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 [action](https://github.com/{username}/airport-free/tree/main/.github/workflows) 即可看到输出结果。
 - 只需将clash的py脚本存放到 node/clash/ 当中后前往 [action](https://github.com/<username>/airport-free/tree/main/.github/workflows) 运行workflow即可看到输出结果。
 
 ## 说明
