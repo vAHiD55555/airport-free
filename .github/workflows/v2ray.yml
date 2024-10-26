@@ -29,6 +29,7 @@ jobs:
     - name: 删除旧生成的文件
       run: |
         rm -f v2ray/*.txt || ture
+        rm -f v2ray.txt || ture
 
 
     - name: 遍历运行py脚本并输出文本
@@ -40,18 +41,48 @@ jobs:
         done
 
 
-    #- name: 运行并输出结果v2
-    #  run: |
-        #python nodes/v2/naidounode.py > v2ray/1.txt
-        #python nodes/v2/nodefree.py > v2ray/2.txt
-        #python nodes/v2/nodev2ray.py > v2ray/3.txt
-        #python nodes/v2/nodev2ray8.py > v2ray/4.txt
-        #python nodes/v2/v2rayshare.py > v2ray/5.txt
-        #python nodes/v2/wenode.py > v2ray/6.txt
+    - name: copy README.md
+      run: |
+        cp nodes/README.md README.md
         
-        
-    #- name: 合并结果vpn
-    #  run: cat "v2ray/${py_name}.txt" > v2ray.txt
+
+    - name: README.md内容输出 clash
+      run: |
+        cd clash/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n') # Prepare list for insertion into README.md
+        cd ..
+        cp nodes/README.md README.md
+        sed -i "/<clash_list>/c\\$list" README.md # Replace <v2ray_list> in README.md
+
+
+    - name: README.md内容输出 v2ray
+      run: |
+        cd v2ray/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/$file\">v2ray节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
+        cd ..
+        sed -i "/<v2ray_list>/c\\$list" README.md
+
+
+    - name: README.md时间更新
+      run: |
+        TIME=$(date -u -d "+8 hours" '+%Y-%m-%d %H:%M:%S')
+          sed -i "s/<update_time>/$TIME/" README.md
 
     - name: 去重
       run: |
@@ -65,7 +96,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A
         if [[ `git status --porcelain` ]]; then
-          git commit -m "v2ray节点" && git push
+          git commit -m "v2ray节点更新时间：$TIME" && git push
         else
           echo "No changes to commit."
         fi
