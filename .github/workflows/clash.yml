@@ -51,7 +51,7 @@ jobs:
         i=1
         for file in *.txt; do
           if [ -f "$file" ]; then
-            list+="align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash节点 $i</a></td>\n"
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash节点 $i</a></td>\n"
             ((i++))
           fi
         done
