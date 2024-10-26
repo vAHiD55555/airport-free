@@ -1,11 +1,7 @@
 name: README 实时更新节点
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'clash/**'
+  workflow_dispatch:
 
 
 jobs:
