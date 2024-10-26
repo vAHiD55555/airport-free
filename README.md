@@ -1,7 +1,7 @@
 # airport-free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间：`2024-10-26 20:23:27`
+- 更新时间：`2024-10-26 20:26:05`
 
 <table style="width:90%">
 <tr><td>v2ray</td><td><v2ray_all></td><v2ray_list></tr>
