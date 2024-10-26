@@ -1,0 +1,32 @@
+name: README 实时更新
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'clash/**'
+
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: 遍历运行py脚本并输出文本clash
+        run: |
+          #rm -f README.md || ture
+          cp /nodes/README.md README.md
+          for file in clash/*.txt;do
+          cat [$(base $file .txt)](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/$(dirname $file)) > README.md
+          done
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "$TIME 更新"
+          git push origin
