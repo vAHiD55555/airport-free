@@ -1,8 +1,7 @@
 # airport-free
 ## 免费节点，每6h自动更新订阅
 
-- v2ray更新时间：`<v2ray_update>`
-- clash更新时间：`<clash_update>`
+- 更新时间：`<update_time>`
 
 |v2ray节点|clash节点|
 |:-------:|:-------:|
