@@ -1,7 +1,7 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间：`2024-10-26 23:09:09`
+- 更新时间：`2024-10-26 23:10:44`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个）
 <table style="width:90%">
 <tr><td>v2ray</td>
@@ -31,7 +31,7 @@
 
 ## 说明
 - 本源码已默认添加了6个源，每隔3个小时自动检测更新，如果有新源欢迎到issues投稿！
-- 修改README.md请前往：<strong>README.md</strong>
+- 修改README.md请前往：<strong>nodes/README.md</strong>
   
 ## 提示
 - 所有数据来源于互联网，内容真实性请用户自行辨认。
