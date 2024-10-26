@@ -47,13 +47,13 @@ jobs:
     - name: README.md内容输出（以防clash和v2ray二缺一，都给运行了，无论早晚都是最新的）
       run: |
         python v2ray/v2ray.py > v2raymd.txt
-        # echo "::set-output name=resultv2ray::$(cat v2raymd.txt)"
-        resultv2ray=$(cat v2raymd.txt)
-        sed -i 's|<v2ray_list>|'"${resultv2ray}"'|g' README.md
+        # echo "::set-output name=RESULTV2RAY::$(cat v2raymd.txt)"
+        RESULTV2RAY=$(cat v2raymd.txt)
+        sed -i 's|<v2ray_list>|'"${RESULTV2RAY}"'|g' README.md
         python clash/clash.py > clashmd.txt
-        # echo "::set-output name=resultclash::$(cat clashmd.txt)"
-        resultclash=$(cat clashmd.txt)
-        sed -i 's|<clash_list>|'"${resultclash}"'|g' README.md
+        # echo "::set-output name=RESULTCLASH::$(cat clashmd.txt)"
+        RESULTCLASH=$(cat clashmd.txt)
+        sed -i 's|<clash_list>|'"${RESULTCLASH}"'|g' README.md
         rm -f v2raymd.txt || ture
         rm -f clashmd.txt || ture
 
