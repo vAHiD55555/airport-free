@@ -44,14 +44,22 @@ jobs:
         cp nodes/README.md README.md
         
 
-    - name: README.md内容输出（以防clash和v2ray二缺一，都给运行了，无论早晚都是最新的）
+    - name: README.md内容输出 clash
       run: |
-        python v2ray/v2ray.py > v2raymd.txt
-        python clash/clash.py > clashmd.txt
-        RESULTV2RAY=$(<v2raymd.txt)
-        RESULTCLASH=$(<clashmd.txt)
-        sed -i 's|<v2ray_list>|'"${RESULTV2RAY}"'|g' README.md
-        sed -i 's|<clash_list>|'"${RESULTCLASH}"'|g' README.md
+        cd clash/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n') # Prepare list for insertion into README.md
+        cd ..
+        cp nodes/README.md README.md
+        sed -i "/<clash_list>/c\\$list" README.md # Replace <v2ray_list> in README.md
+
 
 
     - name: Commit and push if there are changes
