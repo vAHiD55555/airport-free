@@ -13,8 +13,8 @@
 </table>
 
 ## 特点
-- 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 [action](https://github.com/<username>/airport-free/actions/workflows/clash.yml) 即可看到输出结果。
-- 只需将clash的py脚本存放到 node/clash/ 当中后前往 [action](https://github.com/<username>/airport-free/actions/workflows/clash.yml) 运行workflow即可看到输出结果。
+- 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 [action](https://github.com/<username>/airport-free/tree/main/.github/workflows) 即可看到输出结果。
+- 只需将clash的py脚本存放到 node/clash/ 当中后前往 [action](https://github.com/<username>/airport-free/tree/main/.github/workflows) 运行workflow即可看到输出结果。
 
 ## 说明
 - 本源码已默认添加了6个源，每隔3个小时自动检测更新，如果有新源欢迎到issues投稿！
