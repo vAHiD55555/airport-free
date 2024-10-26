@@ -30,21 +30,23 @@ jobs:
       run: |
         rm -f clash/*.txt || ture
         rm -f v2ray/*.txt || ture
-        
+        rm -f v2ray.txt
 
+
+    - name: 遍历运行py脚本并输出文本 v2ray
+      run: |
+        for file in nodes/v2/*.py;do
+        py_name=$(basename $file .py)
+        python "$file" > "v2ray/${py_name}.txt"
+        cat "v2ray/${py_name}.txt" >> v2ray.txt
+        done
+        
 
     - name: 遍历运行py脚本并输出文本 clash
       run: |
         for file in nodes/clash/*.py;do
         py_name=$(basename $file .txt)
         python "$file" > "clash/${py_name}.txt"
-        done
-
-    - name: 遍历运行py脚本并输出文本 v2ray
-      run: |
-        for file in nodes/v2ray/*.py;do
-        py_name=$(basename $file .txt)
-        python "$file" > "v2ray/${py_name}.txt"
         done
 
 
