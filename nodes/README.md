@@ -27,6 +27,9 @@
 </tr>
 </table>
 
+## 源码
+- 源码已开源，详情请移步[GitHub](https://github.com/xiaoji235/airport-free/tree/main)
+
 ## 特点
 - 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
 - 只需将clash的py脚本存放到 node/clash/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
