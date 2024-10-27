@@ -3,6 +3,7 @@
 
 - 更新时间（UTC+8）：`<update_time>`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
+- [v2ray节点多合一](https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt)（如果第一个无法订阅就用这个）
 
 ### 已开启jsdelivr CDN加速：
 
