@@ -1,6 +1,6 @@
 # е€›е»ғиЂ…пәљv2rayse.com и‡ҒеЉЁе€›е»ғ
-# е€›е»ғж—¶й—өпәљ2024-10-25 08:00:00
-# иЉ‚з‚№з±»еһ‹пәљss, vmess, trojan
+# е€›е»ғж—¶й—өпәљ2024-10-26 08:00:00
+# иЉ‚з‚№з±»еһ‹пәљss, trojan, vmess
 ---
 mixed-port: 7890
 allow-lan: false
@@ -50,166 +50,163 @@ tun:
 proxies:
 - name: "рџ‡ғрџ‡ё_US_зңҺе›Ң"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5601
+  server: "38.75.137.42"
+  port: 3389
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
 - name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   type: "ss"
-  server: "38.75.136.21"
-  port: 6697
+  server: "23.157.40.113"
+  port: 7002
   cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
+  password: "RexnBgU7EV5ADxG"
 - name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5004
+  server: "23.157.40.113"
+  port: 5601
   cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
+  password: "Y6R9pAtvxxzmGC"
 - name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8881
-  cipher: "aes-256-gcm"
-  password: "kDWvXYZoTBcGkC4"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
-  type: "vmess"
-  server: "172.64.167.22"
-  port: 2095
-  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/github.com/Alvin9999"
-    headers:
-      host: "ip15.6016725.xyz"
-  alterId: 0
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  type: "ss"
-  server: "23.150.152.53"
-  port: 9101
-  cipher: "aes-256-gcm"
-  password: "e4FCWrgpkji3QY"
-- name: "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
-  type: "trojan"
-  server: "63.32.152.87"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
-  alpn:
-  - "http/1.1"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 8118
-  cipher: "aes-256-gcm"
-  password: "cdBIDV42DCwnfIN"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 5003
-  cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 3389
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
-  type: "vmess"
-  server: "104.19.21.71"
-  port: 2095
-  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/github.com/Alvin9999"
-    headers:
-      host: "ip15.6016725.xyz"
-  alterId: 0
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 5600
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 8080
-  cipher: "aes-256-gcm"
-  password: "KixLvKzwjekG00rm"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
-  type: "ss"
-  server: "169.197.141.84"
+  server: "38.75.137.42"
   port: 8091
   cipher: "aes-256-gcm"
   password: "PCnnH6SQSnfoS27"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_11"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5500
-  cipher: "aes-256-gcm"
-  password: "KixLvKzwjekG00rm"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_12"
-  type: "ss"
-  server: "169.197.142.216"
-  port: 6679
-  cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_13"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 3306
+  server: "23.157.40.113"
+  port: 3389
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   type: "ss"
-  server: "38.75.136.21"
+  server: "144.202.112.106"
+  port: 3913
+  cipher: "chacha20-ietf-poly1305"
+  password: "76dze09gQEvqS_jOuo"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
+  type: "ss"
+  server: "38.68.134.9"
   port: 7001
   cipher: "aes-256-gcm"
   password: "RexnBgU7EV5ADxG"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8009
-  cipher: "aes-256-gcm"
-  password: "XKFKl2rULjIp74"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  type: "ss"
-  server: "38.75.136.21"
+  server: "23.157.40.113"
   port: 5001
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   type: "ss"
-  server: "169.197.142.216"
-  port: 6697
+  server: "38.110.1.105"
+  port: 7307
   cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
-- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
+  password: "FoOiGlkAA9yPEGP"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   type: "ss"
-  server: "23.166.88.221"
+  server: "38.68.134.9"
+  port: 5003
+  cipher: "aes-256-gcm"
+  password: "g5MeD6Ft3CWlJId"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
+  type: "ss"
+  server: "38.68.134.9"
+  port: 5500
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_11"
+  type: "ss"
+  server: "23.157.40.113"
   port: 8118
   cipher: "aes-256-gcm"
   password: "cdBIDV42DCwnfIN"
-- name: "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
-  type: "trojan"
-  server: "3.127.191.38"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
-  alpn:
-  - "http/1.1"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_12"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 8009
+  cipher: "aes-256-gcm"
+  password: "XKFKl2rULjIp74"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_13"
+  type: "ss"
+  server: "38.75.137.42"
+  port: 2375
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
+  type: "ss"
+  server: "139.64.165.230"
+  port: 5500
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 2376
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
+  type: "ss"
+  server: "139.64.165.230"
+  port: 2376
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 443
+  cipher: "aes-256-gcm"
+  password: "pKEW8JPByTVTLtM"
 - name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8882
+  server: "23.157.40.113"
+  port: 3306
   cipher: "aes-256-gcm"
-  password: "kDWvXYZoTBcGkC4"
+  password: "Y6R9pAtvxxzmGC"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  type: "ss"
+  server: "mynode.work.gd"
+  port: 20002
+  cipher: "chacha20-ietf-poly1305"
+  password: "Н„mН’ЯҚMЦҰTyЫ™Т«1Н›PМҺ"
+- name: "жњҒзџӨ"
+  type: "trojan"
+  server: "naiu-us.05vr9nyqg5.download"
+  port: 13021
+  sni: "cloudflare.node-ssl.cdn-alibaba.com"
+  password: "5b4becce-5739-483f-97ec-68b81a855d68"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  type: "ss"
+  server: "67.220.72.41"
+  port: 20002
+  cipher: "chacha20-ietf-poly1305"
+  password: "Н„mН’ЯҚMЦҰTyЫ™Т«1Н›PМҺ"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  type: "ss"
+  server: "38.68.134.202"
+  port: 5004
+  cipher: "aes-256-gcm"
+  password: "g5MeD6Ft3CWlJId"
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  type: "ss"
+  server: "38.68.134.9"
+  port: 8000
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  type: "vmess"
+  server: "110.40.69.43"
+  port: 21616
+  sni: ""
+  uuid: "432dd1c8-b83c-47a0-82d9-453beeda35dc"
+  cipher: "auto"
+  network: "tcp"
+  alterId: 0
+- name: "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
+  type: "ss"
+  server: "38.110.1.105"
+  port: 9101
+  cipher: "aes-256-gcm"
+  password: "e4FCWrgpkji3QY"
 proxy-groups:
 - name: "рџљЂ иЉ‚з‚№йЂ‰ж‹©"
   type: "select"
@@ -220,13 +217,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -236,10 +230,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
@@ -250,13 +249,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -266,10 +262,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "рџЊҚ е›Ңе¤–еҒ’дҢ“"
   type: "select"
   proxies:
@@ -280,13 +281,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -296,10 +294,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "рџ“І з”µжЉӨдүҰжЃҮ"
   type: "select"
   proxies:
@@ -309,13 +312,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -325,10 +325,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "в“‚пёЏ ең®иҢҮжњҚеЉҰ"
   type: "select"
   proxies:
@@ -338,13 +343,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -354,10 +356,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "рџҚҺ и‹№жһњжњҚеЉҰ"
   type: "select"
   proxies:
@@ -367,13 +374,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -383,10 +387,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 - name: "рџҺҮ е…Ёзђѓз›өиүһ"
   type: "select"
   proxies:
@@ -413,13 +422,10 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_1"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_2"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_3"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡¬рџ‡§_GB_и‹±е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_4"
-  - "рџ‡®рџ‡Ғ_IE_з€±е°”е…°"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_5"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_6"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_7"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң->рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_8"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_9"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_10"
@@ -429,10 +435,15 @@ proxy-groups:
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_14"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_15"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_16"
-  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_17"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_18"
-  - "рџ‡©рџ‡Ғ_DE_ең·е›Ң"
   - "рџ‡ғрџ‡ё_US_зңҺе›Ң_19"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_20"
+  - "жњҒзџӨ"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_21"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_22"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_23"
+  - "рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡Үрџ‡µ_JP_ж—Өжњ¬"
+  - "рџ‡ғрџ‡ё_US_зңҺе›Ң_24"
 rule-providers:
   Apple:
     type: "http"
@@ -541,27 +552,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国(mibei77.com 米贝节点分享), server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: GB英国(mibei77.com 米贝节点分享), server: 141.98.101.180, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享), server: 110.40.69.43, port: 41785, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 2, server: 110.40.69.43, port: 26318, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 3, server: 110.40.69.43, port: 21621, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 4, server: rhsdrhwa.cfprefer1.xyz, port: 10005, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 23.157.40.113, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 38.75.137.42, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 5, server: aca-cm-js-4g.cfprefer1.xyz, port: 10039, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 6, server: aca-cm-js-4g.cfprefer1.xyz, port: 10038, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 38.68.134.9, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 38.68.134.9, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 7, server: 110.40.69.43, port: 38944, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 8, server: rhsdrhwa.cfprefer1.xyz, port: 10016, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 9, server: rhsdrhwa.cfprefer1.xyz, port: 10034, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: 38.68.134.9, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: 38.68.134.9, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: 38.75.137.42, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 10, server: rhsdrhwa.cfprefer1.xyz, port: 45611, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 11, server: 110.40.69.43, port: 45619, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 12, server: 110.40.69.43, port: 34604, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 13, server: rhsdrhwa.cfprefer1.xyz, port: 14149, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 14, server: 110.40.69.43, port: 43870, type: vmess, uuid: 432dd1c8-b83c-47a0-82d9-453beeda35dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 15, server: aca-cm-js-4g.cfprefer1.xyz, port: 12994, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 16, server: 120.241.45.50, port: 18001, type: ss, cipher: aes-256-gcm, password: JBCFWWRQF4XTAE0E, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: 23.157.40.113, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 17, server: rhsdrhwa.cfprefer1.xyz, port: 10015, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 18, server: rhsdrhwa.cfprefer1.xyz, port: 43934, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 19, server: 120.241.45.50, port: 16001, type: ss, cipher: aes-256-gcm, password: Q67ADA4UCKOUZ89H, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 20, server: rhsdrhwa.cfprefer1.xyz, port: 10002, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: 23.157.40.113, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 21, server: rhsdrhwa.cfprefer1.xyz, port: 10014, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 22, server: aca-cm-js-4g.cfprefer1.xyz, port: 10020, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 38.110.1.105, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: 38.68.134.9, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: 38.75.137.42, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: 38.68.134.9, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: 169.197.141.84, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: 38.110.1.51, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: 38.110.1.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 23, server: 120.241.45.50, port: 15002, type: ss, cipher: aes-256-gcm, password: 21GUPCT8IEAAV4SB, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 38.68.134.9, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: 23.157.40.113, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: 167.88.61.111, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 24, server: rhsdrhwa.cfprefer1.xyz, port: 10006, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: 38.68.134.9, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 23.157.40.113, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: 23.157.40.113, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: 38.110.1.105, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 38.68.134.9, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: 38.110.1.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: 38.110.1.105, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 28, server: 38.110.1.105, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 29, server: 38.110.1.105, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 30, server: 38.68.134.9, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 31, server: 38.110.1.105, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 32, server: 38.68.134.9, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 33, server: 38.110.1.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: HK香港(mibei77.com 米贝节点分享) 25, server: rhsdrhwa.cfprefer1.xyz, port: 14337, type: ss, cipher: aes-256-gcm, password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 34, server: 38.68.134.9, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -580,31 +827,292 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - HK香港(mibei77.com 米贝节点分享) 25
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -620,7 +1128,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - GB英国(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享)
+      - HK香港(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 3
+      - HK香港(mibei77.com 米贝节点分享) 4
       - US美国(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 2
+      - HK香港(mibei77.com 米贝节点分享) 5
+      - HK香港(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - HK香港(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - HK香港(mibei77.com 米贝节点分享) 10
+      - HK香港(mibei77.com 米贝节点分享) 11
+      - HK香港(mibei77.com 米贝节点分享) 12
+      - HK香港(mibei77.com 米贝节点分享) 13
+      - HK香港(mibei77.com 米贝节点分享) 14
+      - HK香港(mibei77.com 米贝节点分享) 15
+      - HK香港(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 8
+      - HK香港(mibei77.com 米贝节点分享) 17
+      - HK香港(mibei77.com 米贝节点分享) 18
+      - HK香港(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 9
+      - HK香港(mibei77.com 米贝节点分享) 21
+      - HK香港(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - HK香港(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - HK香港(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
+      - US美国(mibei77.com 米贝节点分享) 28
+      - US美国(mibei77.com 米贝节点分享) 29
+      - US美国(mibei77.com 米贝节点分享) 30
+      - US美国(mibei77.com 米贝节点分享) 31
+      - US美国(mibei77.com 米贝节点分享) 32
+      - US美国(mibei77.com 米贝节点分享) 33
+      - HK香港(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 34
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10823,6 +11390,8 @@ rules:
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
 
+# 创建时间：2024-10-26 08:00:00
+# 节点类型：ss, trojan, vmess
 ---
 mixed-port: 7890
 allow-lan: false
@@ -10870,168 +11439,171 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
-- name: "6元高速机场:cczzuu.top"
+- name: "6元高速机场：cczzuu.top"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5601
+  server: "38.75.137.42"
+  port: 3389
+  cipher: "aes-256-gcm"
+  password: "Y6R9pAtvxxzmGC"
+- name: "视频号挂机挣米：121234.top"
+  type: "ss"
+  server: "38.75.137.42"
+  port: 3389
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
 - name: "🇺🇸_US_美国_1"
   type: "ss"
-  server: "38.75.136.21"
-  port: 6697
+  server: "23.157.40.113"
+  port: 7002
   cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
+  password: "RexnBgU7EV5ADxG"
 - name: "🇺🇸_US_美国_2"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5004
+  server: "23.157.40.113"
+  port: 5601
   cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
+  password: "Y6R9pAtvxxzmGC"
 - name: "🇺🇸_US_美国_3"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8881
-  cipher: "aes-256-gcm"
-  password: "kDWvXYZoTBcGkC4"
-- name: "🇺🇸_US_美国->🇬🇧_GB_英国"
-  type: "vmess"
-  server: "172.64.167.22"
-  port: 2095
-  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/github.com/Alvin9999"
-    headers:
-      host: "ip15.6016725.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国_4"
-  type: "ss"
-  server: "23.150.152.53"
-  port: 9101
-  cipher: "aes-256-gcm"
-  password: "e4FCWrgpkji3QY"
-- name: "🇮🇪_IE_爱尔兰"
-  type: "trojan"
-  server: "63.32.152.87"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
-  alpn:
-  - "http/1.1"
-- name: "🇺🇸_US_美国_5"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 8118
-  cipher: "aes-256-gcm"
-  password: "cdBIDV42DCwnfIN"
-- name: "🇺🇸_US_美国_6"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 5003
-  cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
-- name: "🇺🇸_US_美国_7"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 3389
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国->🇩🇪_DE_德国"
-  type: "vmess"
-  server: "104.19.21.71"
-  port: 2095
-  uuid: "18d96190-c10f-448f-a82a-2d36df5c3cde"
-  cipher: "auto"
-  network: "ws"
-  ws-opts:
-    path: "/github.com/Alvin9999"
-    headers:
-      host: "ip15.6016725.xyz"
-  alterId: 0
-- name: "🇺🇸_US_美国_8"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 5600
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国_9"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 8080
-  cipher: "aes-256-gcm"
-  password: "KixLvKzwjekG00rm"
-- name: "🇺🇸_US_美国_10"
-  type: "ss"
-  server: "169.197.141.84"
+  server: "38.75.137.42"
   port: 8091
   cipher: "aes-256-gcm"
   password: "PCnnH6SQSnfoS27"
-- name: "🇺🇸_US_美国_11"
+- name: "🇺🇸_US_美国_4"
   type: "ss"
-  server: "38.75.136.21"
-  port: 5500
-  cipher: "aes-256-gcm"
-  password: "KixLvKzwjekG00rm"
-- name: "🇺🇸_US_美国_12"
-  type: "ss"
-  server: "169.197.142.216"
-  port: 6679
-  cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
-- name: "🇺🇸_US_美国_13"
-  type: "ss"
-  server: "38.75.136.21"
-  port: 3306
+  server: "23.157.40.113"
+  port: 3389
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国_14"
+- name: "🇺🇸_US_美国_5"
   type: "ss"
-  server: "38.75.136.21"
+  server: "144.202.112.106"
+  port: 3913
+  cipher: "chacha20-ietf-poly1305"
+  password: "76dze09gQEvqS_jOuo"
+- name: "🇺🇸_US_美国_6"
+  type: "ss"
+  server: "38.68.134.9"
   port: 7001
   cipher: "aes-256-gcm"
   password: "RexnBgU7EV5ADxG"
-- name: "🇺🇸_US_美国_15"
+- name: "🇺🇸_US_美国_7"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8009
-  cipher: "aes-256-gcm"
-  password: "XKFKl2rULjIp74"
-- name: "🇺🇸_US_美国_16"
-  type: "ss"
-  server: "38.75.136.21"
+  server: "23.157.40.113"
   port: 5001
   cipher: "aes-256-gcm"
   password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国_17"
+- name: "🇺🇸_US_美国_8"
   type: "ss"
-  server: "169.197.142.216"
-  port: 6697
+  server: "38.110.1.105"
+  port: 7307
   cipher: "aes-256-gcm"
-  password: "TEzjfAYq2IjtuoS"
-- name: "🇺🇸_US_美国_18"
+  password: "FoOiGlkAA9yPEGP"
+- name: "🇺🇸_US_美国_9"
   type: "ss"
-  server: "23.166.88.221"
+  server: "38.68.134.9"
+  port: 5003
+  cipher: "aes-256-gcm"
+  password: "g5MeD6Ft3CWlJId"
+- name: "🇺🇸_US_美国_10"
+  type: "ss"
+  server: "38.68.134.9"
+  port: 5500
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "🇺🇸_US_美国_11"
+  type: "ss"
+  server: "23.157.40.113"
   port: 8118
   cipher: "aes-256-gcm"
   password: "cdBIDV42DCwnfIN"
-- name: "🇩🇪_DE_德国"
-  type: "trojan"
-  server: "3.127.191.38"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
-  alpn:
-  - "http/1.1"
+- name: "🇺🇸_US_美国_12"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 8009
+  cipher: "aes-256-gcm"
+  password: "XKFKl2rULjIp74"
+- name: "🇺🇸_US_美国_13"
+  type: "ss"
+  server: "38.75.137.42"
+  port: 2375
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "🇺🇸_US_美国_14"
+  type: "ss"
+  server: "139.64.165.230"
+  port: 5500
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "🇺🇸_US_美国_15"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 2376
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "🇺🇸_US_美国_16"
+  type: "ss"
+  server: "139.64.165.230"
+  port: 2376
+  cipher: "aes-256-gcm"
+  password: "faBAoD54k87UJG7"
+- name: "🇺🇸_US_美国_18"
+  type: "ss"
+  server: "23.157.40.113"
+  port: 443
+  cipher: "aes-256-gcm"
+  password: "pKEW8JPByTVTLtM"
 - name: "🇺🇸_US_美国_19"
   type: "ss"
-  server: "38.75.136.21"
-  port: 8882
+  server: "23.157.40.113"
+  port: 3306
   cipher: "aes-256-gcm"
-  password: "kDWvXYZoTBcGkC4"
+  password: "Y6R9pAtvxxzmGC"
+- name: "🇺🇸_US_美国_20"
+  type: "ss"
+  server: "mynode.work.gd"
+  port: 20002
+  cipher: "chacha20-ietf-poly1305"
+  password: "̈́m͒ߍM֡Tyۙҫ1͛P̎"
+- name: "未知"
+  type: "trojan"
+  server: "naiu-us.05vr9nyqg5.download"
+  port: 13021
+  sni: "cloudflare.node-ssl.cdn-alibaba.com"
+  password: "5b4becce-5739-483f-97ec-68b81a855d68"
+- name: "🇺🇸_US_美国_21"
+  type: "ss"
+  server: "67.220.72.41"
+  port: 20002
+  cipher: "chacha20-ietf-poly1305"
+  password: "̈́m͒ߍM֡Tyۙҫ1͛P̎"
+- name: "🇺🇸_US_美国_22"
+  type: "ss"
+  server: "38.68.134.202"
+  port: 5004
+  cipher: "aes-256-gcm"
+  password: "g5MeD6Ft3CWlJId"
+- name: "🇺🇸_US_美国_23"
+  type: "ss"
+  server: "38.68.134.9"
+  port: 8000
+  cipher: "aes-256-gcm"
+  password: "KixLvKzwjekG00rm"
+- name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  type: "vmess"
+  server: "110.40.69.43"
+  port: 21616
+  sni: ""
+  uuid: "432dd1c8-b83c-47a0-82d9-453beeda35dc"
+  cipher: "auto"
+  network: "tcp"
+  alterId: 0
+- name: "🇺🇸_US_美国_24"
+  type: "ss"
+  server: "38.110.1.105"
+  port: 9101
+  cipher: "aes-256-gcm"
+  password: "e4FCWrgpkji3QY"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
@@ -11042,13 +11614,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11058,10 +11627,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
@@ -11072,13 +11646,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11088,10 +11659,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
@@ -11102,13 +11678,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11118,10 +11691,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "📲 电报信息"
   type: "select"
   proxies:
@@ -11131,13 +11709,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11147,10 +11722,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
@@ -11160,13 +11740,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11176,10 +11753,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
@@ -11189,13 +11771,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11205,10 +11784,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -11235,13 +11819,10 @@ proxy-groups:
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国->🇬🇧_GB_英国"
   - "🇺🇸_US_美国_4"
-  - "🇮🇪_IE_爱尔兰"
   - "🇺🇸_US_美国_5"
   - "🇺🇸_US_美国_6"
   - "🇺🇸_US_美国_7"
-  - "🇺🇸_US_美国->🇩🇪_DE_德国"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
   - "🇺🇸_US_美国_10"
@@ -11251,10 +11832,15 @@ proxy-groups:
   - "🇺🇸_US_美国_14"
   - "🇺🇸_US_美国_15"
   - "🇺🇸_US_美国_16"
-  - "🇺🇸_US_美国_17"
   - "🇺🇸_US_美国_18"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_19"
+  - "🇺🇸_US_美国_20"
+  - "未知"
+  - "🇺🇸_US_美国_21"
+  - "🇺🇸_US_美国_22"
+  - "🇺🇸_US_美国_23"
+  - "🇨🇳_CN_中国->🇯🇵_JP_日本"
+  - "🇺🇸_US_美国_24"
 rule-providers:
   Apple:
     type: "http"
@@ -11355,6 +11941,7 @@ rules:
 - "RULE-SET,ChinaCompanyIp,🎯 全球直连"
 - "GEOIP,CN,🎯 全球直连"
 - "MATCH,🐟 漏网之鱼"
+
 mixed-port: 7890
 allow-lan: false
 mode: rule
@@ -11404,130 +11991,221 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 8090
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_2
-    port: 9102
-    server: 169.197.141.84
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 52.43.127.109
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 6679
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇪🇸_ES_西班牙
-    port: 36792
-    server: 150.241.95.62
-    type: ss
-    udp: true
-    password: F%&MysMUY8
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_5
-    port: 3389
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 9090
-    server: 169.197.141.84
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 2375
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-    port: 20934
-    server: 221.181.185.71
-    type: ss
-    udp: true
-    password: bbO8KazkNBUGb7HP
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_8
-    port: 9101
-    server: 23.150.152.53
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 443
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_10
-    port: 7306
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_11
-    port: 7307
-    server: 38.75.136.21
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_12
-    port: 8091
-    server: 169.197.141.84
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_13
-    port: 8119
-    server: 38.75.136.21
+    port: 8118
+    server: 15.204.87.217
     type: ss
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_14
-    port: 8881
-    server: 38.75.136.21
+  - name: 🇺🇸_US_美国_2
+    port: 3389
+    server: 15.204.87.217
     type: ss
     udp: true
-    password: kDWvXYZoTBcGkC4
+    password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
+  - name: 🇺🇸_US_美国_3
     port: 8090
-    server: 167.88.61.111
+    server: 23.157.40.113
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_16
-    port: 5600
-    server: 38.75.136.21
+  - name: 🇺🇸_US_美国_4
+    port: 8882
+    server: 38.75.137.42
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_5
+    port: 5004
+    server: 38.68.134.202
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
+    port: 443
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 5500
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 7307
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_9
+    port: 6697
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_10
+    port: 5003
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_11
+    port: 9101
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_12
+    port: 8009
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_13
+    port: 3306
+    server: 15.204.87.217
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_14
+    port: 5498
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: lGqs95QkFHo2NV
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_15
+    port: 8119
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_16
+    port: 5498
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: lGqs95QkFHo2NV
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_17
+    port: 3306
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_18
+    port: 6697
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_19
+    port: 443
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_20
+    port: 5600
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_21
+    port: 7307
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_22
+    port: 443
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_23
+    port: 8009
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_24
+    port: 8091
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_25
+    port: 8881
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_26
+    port: 9102
+    server: 69.50.92.99
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_27
+    port: 8118
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_28
+    port: 8090
+    server: 38.110.1.51
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_29
+    port: 8119
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_30
+    port: 9102
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_31
+    port: 7002
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
@@ -11539,11 +12217,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11553,6 +12229,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -11563,11 +12254,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11577,6 +12266,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -11587,11 +12291,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11601,6 +12303,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: 📲 电报信息
     type: select
     proxies:
@@ -11610,11 +12327,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11624,6 +12339,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -11633,11 +12363,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11647,6 +12375,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -11656,11 +12399,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11670,6 +12411,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -11696,11 +12452,9 @@ proxy-groups:
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
       - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇩🇪_DE_德国
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
@@ -11710,6 +12464,21 @@ proxy-groups:
       - 🇺🇸_US_美国_14
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
+      - 🇺🇸_US_美国_18
+      - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
+      - 🇺🇸_US_美国_21
+      - 🇺🇸_US_美国_22
+      - 🇺🇸_US_美国_23
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 🇺🇸_US_美国_26
+      - 🇺🇸_US_美国_27
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -15117,60 +15886,25 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-proxies:
-  - {name: 🇬🇧 高性价比机场:https://kfyun.uk, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.82.183, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
-  - {name: 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3, server: service.ouluyun9803.com, port: 20003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.45.47, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: server31.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
-  - {name: 🇷🇺 俄罗斯+v2rayfree.eu.org, server: 185.242.86.156, port: 54170, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.64.198.249, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip15.6016725.xyz}}}
-  - {name: 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2, server: service.ouluyun9803.com, port: 26667, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, tfo: false}
-  - {name: 🇺🇸 美国+华盛顿Cogent通信公司, server: 38.114.114.46, port: 5600, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
+proxies: ~
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
+      - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -15181,44 +15915,17 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -15234,15 +15941,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 高性价比机场:https://kfyun.uk
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇷🇺 俄罗斯+v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 4
-      - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
-      - 🇺🇸 美国+华盛顿Cogent通信公司
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
