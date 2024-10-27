@@ -69,7 +69,6 @@ jobs:
         done
         list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n') # Prepare list for insertion into README.md
         cd ..
-        cp nodes/README.md README.md
         sed -i "/<clash_list>/c\\$list" README.md # Replace <v2ray_list> in README.md
 
 
@@ -103,7 +102,6 @@ jobs:
         done
         list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
         cd ..
-        cp nodes/README.md README.md
         sed -i "/<clashCDN_list>/c\\$list" README.md
 
 
