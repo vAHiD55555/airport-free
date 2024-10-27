@@ -1,7 +1,7 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间（UTC+8）：`2024-10-27 17:11:51`
+- 更新时间（UTC+8）：`2024-10-27 19:06:56`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
 - [v2ray节点多合一](https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt)（如果第一个无法订阅就用这个）
 
@@ -52,6 +52,9 @@
 
 </tr>
 </table>
+
+## 源码
+- 源码已开源，详情请移步[GitHub](https://github.com/xiaoji235/airport-free/tree/main)
 
 ## 特点
 - 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
