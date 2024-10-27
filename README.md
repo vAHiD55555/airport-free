@@ -1,8 +1,9 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间（UTC+8）：`2024-10-27 11:38:33`
+- 更新时间（UTC+8）：`2024-10-27 14:16:12`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
+- [v2ray节点多合一](https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt)（如果第一个无法订阅就用这个）
 
 ### 已开启jsdelivr CDN加速：
 
@@ -57,7 +58,7 @@
 - 只需将clash的py脚本存放到 node/clash/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
 
 ## 说明
-- 本源码已默认添加了6个节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
+- 本源码已默认添加了6个节点源（实际只有5个来源站），每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
 - 修改README.md请前往：<strong>nodes/README.md</strong>
 
 ## 问题
