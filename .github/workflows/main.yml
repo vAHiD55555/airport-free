@@ -53,7 +53,8 @@ jobs:
     - name: copy README.md
       run: |
         cp nodes/README.md README.md
-        
+
+##########################################################################################
 
     - name: README.md内容输出 clash
       run: |
@@ -86,6 +87,42 @@ jobs:
         list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
         cd ..
         sed -i "/<v2ray_list>/c\\$list" README.md
+
+##########################################################################################
+
+    - name: README.md内容输出 clash CDN
+      run: |
+        cd clash/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="<td align=\"center\"><a href=\"https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/$file\">clash节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
+        cd ..
+        cp nodes/README.md README.md
+        sed -i "/<clashCDN_list>/c\\$list" README.md
+
+
+    - name: README.md内容输出 v2ray CDN
+      run: |
+        cd v2ray/
+        list=""
+        i=1
+        for file in *.txt; do
+          if [ -f "$file" ]; then
+            list+="<td align=\"center\"><a href=\"https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/$file\">v2ray节点 $i</a></td>\n"
+            ((i++))
+          fi
+        done
+        list=$(echo "$list" | sed 's/$/\\n/g' | tr -d '\n')
+        cd ..
+        sed -i "/<v2rayCDN_list>/c\\$list" README.md
+
+##########################################################################################
 
 
     - name: README.md时间更新
