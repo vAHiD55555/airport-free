@@ -3,12 +3,26 @@
 
 - 更新时间（UTC+8）：`<update_time>`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
+
+### 已开启jsdelivr CDN加速：
+
 <table style="width:90%">
 <tr><td>v2ray</td>
 <v2ray_list>
 </tr>
 <tr><td>clash</td>
 <clash_list>
+</tr>
+</table>
+
+### 如果订阅更新不了再用这个：
+
+<table style="width:90%">
+<tr><td>v2ray</td>
+<v2rayCDN_list>
+</tr>
+<tr><td>clash</td>
+<clashCDN_list>
 </tr>
 </table>
 
