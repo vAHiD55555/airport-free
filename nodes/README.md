@@ -2,7 +2,7 @@
 ## 免费节点，每3h自动更新订阅
 
 - 更新时间（UTC+8）：`<update_time>`
-- [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个）
+- [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
 <table style="width:90%">
 <tr><td>v2ray</td>
 <v2ray_list>
