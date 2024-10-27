@@ -1,8 +1,8 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间（UTC+8）：`2024-10-27 09:00:53`
-- [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个）
+- 更新时间（UTC+8）：`2024-10-27 11:21:40`
+- [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
 <table style="width:90%">
 <tr><td>v2ray</td>
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/naidounode.txt">v2ray节点 1</a></td>
