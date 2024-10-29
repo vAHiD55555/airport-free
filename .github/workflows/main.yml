@@ -28,8 +28,8 @@ jobs:
 
     - name: 删除旧生成的文件
       run: |
-        rm -f clash/*.txt || ture
-        rm -f v2ray/*.txt || ture
+        rm -f clash/*.txt || true
+        rm -f v2ray/*.txt || true
         rm -f v2ray.txt
 
 
