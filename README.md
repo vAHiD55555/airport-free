@@ -1,7 +1,7 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间（UTC+8）：`2024-10-31 08:57:30`
+- 更新时间（UTC+8）：`2024-10-31 17:02:09`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
 - [v2ray节点多合一](https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt)（如果第一个无法订阅就用这个）
 
@@ -12,9 +12,8 @@
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/naidounode.txt">v2ray节点 1</a></td>
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/nodefree.txt">v2ray节点 2</a></td>
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/nodev2ray.txt">v2ray节点 3</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/nodev2ray8.txt">v2ray节点 4</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/v2rayshare.txt">v2ray节点 5</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/wenode.txt">v2ray节点 6</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/v2rayshare.txt">v2ray节点 4</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/wenode.txt">v2ray节点 5</a></td>
 
 
 </tr>
@@ -36,9 +35,8 @@
 <td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/naidounode.txt">v2ray节点 1</a></td>
 <td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/nodefree.txt">v2ray节点 2</a></td>
 <td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/nodev2ray.txt">v2ray节点 3</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/nodev2ray8.txt">v2ray节点 4</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/v2rayshare.txt">v2ray节点 5</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/wenode.txt">v2ray节点 6</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/v2rayshare.txt">v2ray节点 4</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/wenode.txt">v2ray节点 5</a></td>
 
 
 </tr>
