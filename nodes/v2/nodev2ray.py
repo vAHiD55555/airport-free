@@ -13,12 +13,16 @@ year = now.year
 month = now.month
 day = now.day
 
+MONTH = f"{month:02d}"
+DAY = f"{day:02d}"
+
 # 构建URL列表
 urls = [
-    f"https://nodev2ray.com/uploads/{year}/{month}/1-{year}{month}{day}.txt",
-    f"https://nodev2ray.com/uploads/{year}/{month}/2-{year}{month}{day}.txt",
-    f"https://nodev2ray.com/uploads/{year}/{month}/3-{year}{month}{day}.txt",
-    f"https://nodev2ray.com/uploads/{year}/{month}/4-{year}{month}{day}.txt"
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/{year}{MONTH}{DAY}.txt",
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/1-{year}{MONTH}{DAY}.txt",
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/2-{year}{MONTH}{DAY}.txt",
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/3-{year}{MONTH}{DAY}.txt",
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/4-{year}{MONTH}{DAY}.txt"
 ]
 
 # 发起请求并打印结果

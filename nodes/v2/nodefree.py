@@ -13,9 +13,12 @@ year = now.year
 month = now.month
 day = now.day
 
+MONTH = f"{month:02d}"
+DAY = f"{day:02d}"
+
 # 构建URL列表
 urls = [
-    f"https://nodefree.githubrowcontent.com/{year}/{month}/{year}{month}{day}.txt"
+    f"https://nodefree.githubrowcontent.com/{year}/{MONTH}/{year}{MONTH}{DAY}.txt"
 ]
 
 # 发起请求并打印结果
