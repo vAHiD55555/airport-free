@@ -1,7 +1,7 @@
 # Airport-Free
 ## 免费节点，每3h自动更新订阅
 
-- 更新时间（UTC+8）：`2024-11-01 09:01:28`
+- 更新时间（UTC+8）：`2024-11-01 09:31:19`
 - [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
 - [v2ray节点多合一](https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt)（如果第一个无法订阅就用这个）
 
@@ -18,11 +18,12 @@
 
 </tr>
 <tr><td>clash</td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt">clash节点 1</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodefree.txt">clash节点 2</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodev2ray.txt">clash节点 3</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash节点 4</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/wenode.txt">clash节点 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidoucode.txt">clash节点 1</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt">clash节点 2</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodefree.txt">clash节点 3</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodev2ray.txt">clash节点 4</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash节点 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/wenode.txt">clash节点 6</a></td>
 
 
 </tr>
@@ -41,11 +42,12 @@
 
 </tr>
 <tr><td>clash</td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/naidounode.txt">clash节点 1</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/nodefree.txt">clash节点 2</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/nodev2ray.txt">clash节点 3</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/v2rayshare.txt">clash节点 4</a></td>
-<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/wenode.txt">clash节点 5</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/naidoucode.txt">clash节点 1</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/naidounode.txt">clash节点 2</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/nodefree.txt">clash节点 3</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/nodev2ray.txt">clash节点 4</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/v2rayshare.txt">clash节点 5</a></td>
+<td align="center"><a href="https://ghp.ci/https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/wenode.txt">clash节点 6</a></td>
 
 
 </tr>
