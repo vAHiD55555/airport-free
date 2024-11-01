@@ -17,7 +17,7 @@ DAY = f"{day:02d}"
 
 # 构建URL列表
 urls = [
-    f"https://v2rayshare.githubrowcontent.com/{year}/{MONTH}/{year}{MONTH}{DAY}.yaml"
+    f"https://www.naidounode.com/node/{year}{MONTH}{DAY}-clash.yaml"
 ]
 
 # 发起请求并打印结果
@@ -27,4 +27,4 @@ for url in urls:
         response.raise_for_status()  # 检查请求是否成功
         print(response.text)
     except requests.exceptions.RequestException as e:
-        print(f"未获取到到节点，错误代码：{e}")
+        print(f"取到到节点")
