@@ -9,10 +9,10 @@
 ### 已开启jsdelivr CDN加速：
 
 <table style="width:90%">
-<tr><td>v2ray</td>
+<tr><td><strong>v2ray</strong></td>
 <v2ray_list>
 </tr>
-<tr><td>clash</td>
+<tr><td><strong>clash</strong></td>
 <clash_list>
 </tr>
 </table>
@@ -20,10 +20,10 @@
 ### 如果订阅更新不了再用这个：
 
 <table style="width:90%">
-<tr><td>v2ray</td>
+<tr><td><strong>v2ray</strong></td>
 <v2rayCDN_list>
 </tr>
-<tr><td>clash</td>
+<tr><td><strong>clash</strong></td>
 <clashCDN_list>
 </tr>
 </table>
