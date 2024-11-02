@@ -1,6 +1,6 @@
 # 创建者：v2rayse.com 自动创建
-# 创建时间：2024-10-31 08:00:00
-# 节点类型：ss, trojan, vmess
+# 创建时间：2024-11-01 08:00:00
+# 节点类型：ss, trojan
 ---
 mixed-port: 7890
 allow-lan: false
@@ -48,383 +48,246 @@ tun:
   - "1.1.1.1"
   - "1.0.0.1"
 proxies:
-- name: "🇬🇧_GB_英国"
+- name: "🇺🇸_US_美国"
   type: "ss"
-  server: "141.98.101.180"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国_1"
-  type: "ss"
-  server: "38.110.1.107"
-  port: 3389
+  server: "23.157.88.61"
+  port: 2376
   cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国_2"
+  password: "faBAoD54k87UJG7"
+- name: "🇺🇸_US_美国_1"
   type: "trojan"
-  server: "3.136.138.228"
+  server: "3.98.16.101"
   port: 22222
   sni: "trojan.burgerip.co.uk"
   password: "telegram-id-directvpn"
   network: "tcp"
   alpn:
   - "http/1.1"
-- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+- name: "🇺🇸_US_美国_2"
   type: "ss"
-  server: "54.200.148.115"
+  server: "35.160.185.203"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
+- name: "🇺🇸_US_美国_3"
+  type: "ss"
+  server: "18.246.235.247"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  type: "ss"
+  server: "54.68.160.24"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇨🇳_CN_中国"
+  type: "ss"
+  server: "54.71.237.242"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  type: "ss"
+  server: "54.185.199.99"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  type: "ss"
+  server: "52.221.255.53"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  type: "ss"
+  server: "54.213.247.125"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国_8"
+  type: "ss"
+  server: "156.146.38.168"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
+- name: "🇺🇸_US_美国_9"
+  type: "ss"
+  server: "38.114.114.143"
+  port: 443
+  cipher: "aes-256-gcm"
+  password: "pKEW8JPByTVTLtM"
 - name: "🇨🇳_CN_中国"
   type: "ss"
   server: "107.155.57.51"
   port: 8080
   cipher: "rc4-md5"
   password: "14fFPrbezE3HDZzsMOr6"
-- name: "🇺🇸_US_美国_3"
-  type: "ss"
-  server: "23.157.88.61"
-  port: 2376
-  cipher: "aes-256-gcm"
-  password: "faBAoD54k87UJG7"
-- name: "🇹🇷_TR_土耳其"
-  type: "ss"
-  server: "ist1.fromblancwithlove.com"
-  port: 21657
-  cipher: "chacha20-ietf-poly1305"
-  password: "7PC4KztQwRixCS809ZFEllQpmAMn4oE0O9qdrCYo4MdEXJU577cjYeaG0tZDyRl0"
-- name: "🇪🇪_EE_爱沙尼亚"
-  type: "ss"
-  server: "77.247.108.24"
-  port: 990
-  cipher: "chacha20-ietf-poly1305"
-  password: "f8f7aCzcPKbsF8p3"
-- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  type: "ss"
-  server: "35.94.16.186"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国->🇨🇳_CN_中国"
-  type: "ss"
-  server: "52.43.127.109"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国_4"
-  type: "ss"
-  server: "156.146.38.168"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国->🇯🇵_JP_日本"
-  type: "ss"
-  server: "13.213.30.242"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国_5"
-  type: "ss"
-  server: "212.102.47.131"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国_6"
-  type: "ss"
-  server: "38.110.1.107"
-  port: 5000
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  type: "ss"
-  server: "54.95.5.168"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇫🇷_FR_法国"
-  type: "ss"
-  server: "163.172.64.22"
-  port: 989
-  cipher: "aes-256-cfb"
-  password: "f8f7aCzcPKbsF8p3"
-- name: "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
-  type: "ss"
-  server: "52.164.203.76"
-  port: 20143
-  cipher: "chacha20-ietf-poly1305"
-  password: "81aBd6IJIgFwT1lqcojSzK"
-- name: "🇺🇸_US_美国_8"
-  type: "ss"
-  server: "205.134.180.150"
-  port: 443
-  cipher: "chacha20-ietf-poly1305"
-  password: "5cp9Z3iWnJZ2"
-- name: "🇺🇸_US_美国_9"
-  type: "ss"
-  server: "54.200.54.11"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇸🇬_SG_新加坡"
-  type: "ss"
-  server: "54.255.237.249"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国_10"
+- name: "🇺🇸_US_美国_11"
   type: "ss"
   server: "34.210.94.67"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  type: "vmess"
-  server: "120.237.79.157"
-  port: 46665
-  uuid: "3ac820af-becb-45d7-9e7a-e33d02961bb3"
-  cipher: "auto"
-  network: "tcp"
-  alterId: 64
-- name: "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
+- name: "🇸🇬_SG_新加坡"
   type: "ss"
-  server: "150.241.95.62"
-  port: 42445
-  cipher: "chacha20-ietf-poly1305"
-  password: "flj72wu+&R"
-- name: "🇨🇦_CA_加拿大"
-  type: "ss"
-  server: "64.74.163.130"
-  port: 990
-  cipher: "chacha20-ietf-poly1305"
-  password: "f8f7aCzcPKbsF8p3"
-- name: "未知"
-  type: "trojan"
-  server: "naiu-us.05vr9nyqg5.download"
-  port: 13021
-  sni: "cloudflare.node-ssl.cdn-alibaba.com"
-  password: "5b4becce-5739-483f-97ec-68b81a855d68"
-- name: "🇩🇪_DE_德国"
-  type: "ss"
-  server: "45.87.175.154"
-  port: 8080
-  cipher: "chacha20-ietf-poly1305"
-  password: "cvII85TrW6n0OGyfpHVS1u"
-- name: "🇬🇧_GB_英国_1"
-  type: "ss"
-  server: "141.98.101.179"
+  server: "54.169.139.18"
   port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
-  type: "trojan"
-  server: "16.170.99.198"
-  port: 22222
-  sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
-  network: "tcp"
-  alpn:
-  - "http/1.1"
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  type: "ss"
+  server: "34.216.240.225"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇮🇪_IE_爱尔兰"
+  type: "ss"
+  server: "52.164.203.76"
+  port: 20143
+  cipher: "chacha20-ietf-poly1305"
+  password: "81aBd6IJIgFwT1lqcojSzK"
+- name: "🇯🇵_JP_日本"
+  type: "ss"
+  server: "54.95.5.168"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
   proxies:
   - "♻️ 自动选择"
   - "DIRECT"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
   interval: 300
   tolerance: 50
   proxies:
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "♻️ 自动选择"
   - "🎯 全球直连"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -447,34 +310,23 @@ proxy-groups:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "♻️ 自动选择"
-  - "🇬🇧_GB_英国"
+  - "🇺🇸_US_美国"
   - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
-  - "🇨🇳_CN_中国"
   - "🇺🇸_US_美国_3"
-  - "🇹🇷_TR_土耳其"
-  - "🇪🇪_EE_爱沙尼亚"
-  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   - "🇺🇸_US_美国->🇨🇳_CN_中国"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国->🇯🇵_JP_日本"
-  - "🇺🇸_US_美国_5"
-  - "🇺🇸_US_美国_6"
-  - "🇯🇵_JP_日本->🇸🇬_SG_新加坡"
-  - "🇫🇷_FR_法国"
-  - "🇮🇪_IE_爱尔兰->🇫🇷_FR_法国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
+  - "🇨🇳_CN_中国"
+  - "🇺🇸_US_美国_11"
   - "🇸🇬_SG_新加坡"
-  - "🇺🇸_US_美国_10"
-  - "🇨🇳_CN_中国->🇫🇷_FR_法国"
-  - "🇪🇸_ES_西班牙->🇯🇵_JP_日本"
-  - "🇨🇦_CA_加拿大"
-  - "未知"
-  - "🇩🇪_DE_德国"
-  - "🇬🇧_GB_英国_1"
-  - "🇺🇸_US_美国->🇮🇪_IE_爱尔兰"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 rule-providers:
   Apple:
     type: "http"
@@ -583,31 +435,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国(mibei77.com 米贝节点分享), server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
-  - {name: US美国(mibei77.com 米贝节点分享) 2, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: CA加拿大(mibei77.com 米贝节点分享), server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip18.6929198.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: 52.164.203.76, port: 20143, type: ss, cipher: chacha20-ietf-poly1305, password: 81aBd6IJIgFwT1lqcojSzK, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 2, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 3, server: 120.237.79.157, port: 46665, type: vmess, uuid: 3ac820af-becb-45d7-9e7a-e33d02961bb3, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 4, server: 120.232.153.71, port: 43526, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 5, server: icook.tw, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 6, server: fbi.gov, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 7, server: naiu-jp.05vr9nyqg5.download, port: 13011, type: trojan, password: 5b4becce-5739-483f-97ec-68b81a855d68, sni: naiu-jp.05vr9nyqg5.download, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 8, server: 120.232.153.27, port: 51582, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 9, server: malaysia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 10, server: 172.66.44.203, port: 443, type: trojan, password: bpb-trojan, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 11, server: 172.66.47.53, port: 443, type: trojan, password: bpb-trojan, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 12, server: russia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 13, server: 23.157.88.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 14, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 15, server: russia.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /github.com/Alvin9999, ws-headers: {Host: ip11.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 16, server: singapore.com, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip2.6016725.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 17, server: 15086.kuaiyin02.top, port: 15086, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 18, server: 208.67.105.196, port: 42029, type: ss, cipher: chacha20-ietf-poly1305, password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 19, server: api.turkiye6.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: lQHuqev0bDeSuxSCL, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 20, server: exchange.gameaurela.click, port: 52952, type: ss, cipher: chacha20-ietf-poly1305, password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 21, server: 183.236.51.23, port: 51002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 22, server: usnew.lbxjc.site, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan.kejixiaoqi666.store}, udp: true}
+  - {name: NL荷兰(mibei77.com 米贝节点分享), server: malaysia.com, port: 2082, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: github.com/Alvin9999, ws-headers: {Host: ip3.6929198.xyz}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 23, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /glweidf.sbs/linkws, ws-headers: {Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 24, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: chunchuan.kejixiaoqi666.store}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 25, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 26, server: 185.24.151.214, port: 52952, type: ss, cipher: chacha20-ietf-poly1305, password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享) 27, server: 38.114.114.143, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -626,8 +586,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -638,23 +625,104 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -670,8 +738,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享)
       - US美国(mibei77.com 米贝节点分享) 2
+      - US美国(mibei77.com 米贝节点分享) 3
+      - US美国(mibei77.com 米贝节点分享) 4
+      - US美国(mibei77.com 米贝节点分享) 5
+      - US美国(mibei77.com 米贝节点分享) 6
+      - US美国(mibei77.com 米贝节点分享) 7
+      - US美国(mibei77.com 米贝节点分享) 8
+      - US美国(mibei77.com 米贝节点分享) 9
+      - US美国(mibei77.com 米贝节点分享) 10
+      - US美国(mibei77.com 米贝节点分享) 11
+      - US美国(mibei77.com 米贝节点分享) 12
+      - US美国(mibei77.com 米贝节点分享) 13
+      - US美国(mibei77.com 米贝节点分享) 14
+      - US美国(mibei77.com 米贝节点分享) 15
+      - US美国(mibei77.com 米贝节点分享) 16
+      - US美国(mibei77.com 米贝节点分享) 17
+      - US美国(mibei77.com 米贝节点分享) 18
+      - US美国(mibei77.com 米贝节点分享) 19
+      - US美国(mibei77.com 米贝节点分享) 20
+      - US美国(mibei77.com 米贝节点分享) 21
+      - US美国(mibei77.com 米贝节点分享) 22
+      - NL荷兰(mibei77.com 米贝节点分享)
+      - US美国(mibei77.com 米贝节点分享) 23
+      - US美国(mibei77.com 米贝节点分享) 24
+      - US美国(mibei77.com 米贝节点分享) 25
+      - US美国(mibei77.com 米贝节点分享) 26
+      - US美国(mibei77.com 米贝节点分享) 27
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10874,7 +10969,6 @@ rules:
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
 
----
 mixed-port: 7890
 allow-lan: false
 mode: "rule"
@@ -10923,147 +11017,109 @@ tun:
 proxies:
 - name: "6元高速机场：cczzuu.top"
   type: "ss"
-  server: "156.146.38.168"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国_2"
-  type: "ss"
-  server: "23.150.152.41"
-  port: 8119
+  server: "23.157.88.61"
+  port: 2376
   cipher: "aes-256-gcm"
-  password: "cdBIDV42DCwnfIN"
-- name: "🇺🇸_US_美国_3"
-  type: "ss"
-  server: "54.200.54.11"
-  port: 443
-  cipher: "aes-256-cfb"
-  password: "amazonskr05"
-- name: "🇺🇸_US_美国_4"
-  type: "ss"
-  server: "38.110.1.107"
-  port: 5000
-  cipher: "aes-256-gcm"
-  password: "Y6R9pAtvxxzmGC"
-- name: "🇺🇸_US_美国_5"
-  type: "ss"
-  server: "144.202.112.106"
-  port: 3913
-  cipher: "chacha20-ietf-poly1305"
-  password: "76dze09gQEvqS_jOuo"
-- name: "🇫🇷_FR_法国"
-  type: "ss"
-  server: "163.172.64.22"
-  port: 989
-  cipher: "aes-256-cfb"
-  password: "f8f7aCzcPKbsF8p3"
-- name: "🇬🇧_GB_英国"
-  type: "ss"
-  server: "141.98.101.180"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇺🇸_US_美国_7"
+  password: "faBAoD54k87UJG7"
+- name: "🇺🇸_US_美国_1"
   type: "trojan"
-  server: "63.176.54.171"
+  server: "3.98.16.101"
   port: 22222
   sni: "trojan.burgerip.co.uk"
-  password: "telegram-id-privatevpns"
+  password: "telegram-id-directvpn"
   network: "tcp"
   alpn:
   - "http/1.1"
+- name: "🇺🇸_US_美国_2"
+  type: "ss"
+  server: "35.160.185.203"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国_3"
+  type: "ss"
+  server: "18.246.235.247"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
 - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡"
   type: "ss"
-  server: "34.210.94.67"
+  server: "54.68.160.24"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇨🇳_CN_中国"
+  type: "ss"
+  server: "54.71.237.242"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  type: "ss"
+  server: "54.185.199.99"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇸🇬_SG_新加坡->🇺🇸_US_美国"
+  type: "ss"
+  server: "52.221.255.53"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
 - name: "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
   type: "ss"
-  server: "52.89.233.31"
+  server: "54.213.247.125"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇨🇦_CA_加拿大"
-  type: "ss"
-  server: "64.74.163.130"
-  port: 990
-  cipher: "chacha20-ietf-poly1305"
-  password: "f8f7aCzcPKbsF8p3"
 - name: "🇺🇸_US_美国_8"
   type: "ss"
-  server: "208.67.105.196"
-  port: 42029
-  cipher: "chacha20-ietf-poly1305"
-  password: "SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD"
+  server: "156.146.38.168"
+  port: 443
+  cipher: "aes-128-gcm"
+  password: "shadowsocks"
 - name: "🇺🇸_US_美国_9"
   type: "ss"
-  server: "141.98.168.127"
+  server: "38.114.114.143"
   port: 443
-  cipher: "chacha20-ietf-poly1305"
-  password: "ZoCmoonMg5GWwpi0FCqLcQ"
-- name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-  type: "vmess"
-  server: "183.236.48.161"
-  port: 33288
-  uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-  cipher: "auto"
-  network: "tcp"
-  alterId: 64
+  cipher: "aes-256-gcm"
+  password: "pKEW8JPByTVTLtM"
 - name: "🇨🇳_CN_中国"
   type: "ss"
   server: "107.155.57.51"
   port: 8080
   cipher: "rc4-md5"
   password: "14fFPrbezE3HDZzsMOr6"
-- name: "🇺🇦_UA_乌克兰"
-  type: "ss"
-  server: "37.19.198.160"
-  port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
-- name: "🇮🇳_IN_印度"
-  type: "ss"
-  server: "159.65.149.72"
-  port: 51348
-  cipher: "chacha20-ietf-poly1305"
-  password: "p7EhC8MR7o7GuRn27YF8SQNAKJ2lUbBNIjcyqSmBHsy8wLbJ"
-- name: "🇩🇪_DE_德国"
-  type: "ss"
-  server: "45.87.175.157"
-  port: 8080
-  cipher: "chacha20-ietf-poly1305"
-  password: "cvII85TrW6n0OGyfpHVS1u"
 - name: "🇺🇸_US_美国_11"
   type: "ss"
-  server: "34.220.167.70"
+  server: "34.210.94.67"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇦🇫_AF_阿富汗"
-  type: "ss"
-  server: "exchange.gameaurela.click"
-  port: 52952
-  cipher: "chacha20-ietf-poly1305"
-  password: "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
-- name: "🇺🇸_US_美国_12"
-  type: "ss"
-  server: "142.202.48.105"
-  port: 5004
-  cipher: "aes-256-gcm"
-  password: "g5MeD6Ft3CWlJId"
 - name: "🇸🇬_SG_新加坡"
   type: "ss"
-  server: "54.254.7.5"
+  server: "54.169.139.18"
   port: 443
   cipher: "aes-256-cfb"
   password: "amazonskr05"
-- name: "🇬🇧_GB_英国_1"
+- name: "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
   type: "ss"
-  server: "141.98.101.179"
+  server: "34.216.240.225"
   port: 443
-  cipher: "aes-128-gcm"
-  password: "shadowsocks"
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
+- name: "🇮🇪_IE_爱尔兰"
+  type: "ss"
+  server: "52.164.203.76"
+  port: 20143
+  cipher: "chacha20-ietf-poly1305"
+  password: "81aBd6IJIgFwT1lqcojSzK"
+- name: "🇯🇵_JP_日本"
+  type: "ss"
+  server: "54.95.5.168"
+  port: 443
+  cipher: "aes-256-cfb"
+  password: "amazonskr05"
 proxy-groups:
 - name: "🚀 节点选择"
   type: "select"
@@ -11071,28 +11127,22 @@ proxy-groups:
   - "♻️ 自动选择"
   - "DIRECT"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "♻️ 自动选择"
   type: "url-test"
   url: "http://www.gstatic.com/generate_204"
@@ -11100,28 +11150,22 @@ proxy-groups:
   tolerance: 50
   proxies:
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🌍 国外媒体"
   type: "select"
   proxies:
@@ -11129,112 +11173,88 @@ proxy-groups:
   - "♻️ 自动选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "📲 电报信息"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "Ⓜ️ 微软服务"
   type: "select"
   proxies:
   - "🎯 全球直连"
   - "🚀 节点选择"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🍎 苹果服务"
   type: "select"
   proxies:
   - "🚀 节点选择"
   - "🎯 全球直连"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 - name: "🎯 全球直连"
   type: "select"
   proxies:
@@ -11258,28 +11278,22 @@ proxy-groups:
   - "🎯 全球直连"
   - "♻️ 自动选择"
   - "🇺🇸_US_美国"
+  - "🇺🇸_US_美国_1"
   - "🇺🇸_US_美国_2"
   - "🇺🇸_US_美国_3"
-  - "🇺🇸_US_美国_4"
-  - "🇺🇸_US_美国_5"
-  - "🇫🇷_FR_法国"
-  - "🇬🇧_GB_英国"
-  - "🇺🇸_US_美国_7"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国"
+  - "🇺🇸_US_美国->🇨🇳_CN_中国_1"
+  - "🇸🇬_SG_新加坡->🇺🇸_US_美国"
   - "🇺🇸_US_美国->🇸🇬_SG_新加坡_1"
-  - "🇨🇦_CA_加拿大"
   - "🇺🇸_US_美国_8"
   - "🇺🇸_US_美国_9"
-  - "🇨🇳_CN_中国->🇺🇸_US_美国"
   - "🇨🇳_CN_中国"
-  - "🇺🇦_UA_乌克兰"
-  - "🇮🇳_IN_印度"
-  - "🇩🇪_DE_德国"
   - "🇺🇸_US_美国_11"
-  - "🇦🇫_AF_阿富汗"
-  - "🇺🇸_US_美国_12"
   - "🇸🇬_SG_新加坡"
-  - "🇬🇧_GB_英国_1"
+  - "🇺🇸_US_美国->🇸🇬_SG_新加坡_2"
+  - "🇮🇪_IE_爱尔兰"
+  - "🇯🇵_JP_日本"
 rule-providers:
   Apple:
     type: "http"
@@ -11428,208 +11442,260 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
-    port: 20143
-    server: 52.164.203.76
+  - name: 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
+    port: 8080
+    server: 45.87.175.171
     type: ss
     udp: true
-    password: 81aBd6IJIgFwT1lqcojSzK
+    password: cvII85TrW6n0OGyfpHVS1u
     cipher: chacha20-ietf-poly1305
   - name: 🇺🇸_US_美国_1
-    port: 2376
-    server: 23.157.88.61
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_2
-    port: 3389
-    server: 23.134.94.168
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
     port: 443
-    server: 34.210.94.67
+    server: 18.246.235.247
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
+  - name: 🇬🇧_GB_英国_1
+    port: 8119
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_2
+    port: 8009
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+    port: 443
+    server: 54.213.247.125
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇬🇧_GB_英国_3
+    port: 8080
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_2
+    port: 2376
+    server: 38.114.114.143
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
     port: 443
     server: 34.216.240.225
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 5000
-    server: 38.110.1.107
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 443
+    server: series-a2.varzesh360.co
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-    port: 42445
-    server: 150.241.95.62
-    type: ss
-    udp: true
-    password: flj72wu+&R
+    password: mps3FwmDjLrWaOVg
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_5
+  - name: 🇺🇸_US_美国_3
+    port: 443
+    server: 54.200.148.115
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
     port: 443
     server: 34.222.148.255
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_4
+    port: 8882
+    server: 38.86.135.141
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_5
+    port: 3389
+    server: 23.134.94.168
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_4
+    port: 5000
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
   - name: 🇺🇸_US_美国_6
+    port: 2376
+    server: 23.157.88.61
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
     port: 443
-    server: 52.89.233.31
+    server: 52.10.33.211
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
-    port: 443
-    server: 35.160.185.203
+  - name: 🇬🇧_GB_英国_5
+    port: 9101
+    server: 145.239.6.202
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国_1
-    port: 443
-    server: 141.98.101.179
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 443
-    server: 54.200.54.11
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国_2
-    port: 443
-    server: 141.98.101.180
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -11652,19 +11718,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇪_IE_爱尔兰->🇫🇷_FR_法国
+      - 🇩🇪_DE_德国->🇦🇫_AF_阿富汗
       - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇪🇸_ES_西班牙->🇯🇵_JP_日本
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_8
       - 🇬🇧_GB_英国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_1
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_2
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇬🇧_GB_英国_4
+      - 🇺🇸_US_美国_6
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡_4
+      - 🇬🇧_GB_英国_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -15074,10 +15144,41 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇬🇧 高性价比机场:https://kfyun.uk, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: server31.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
-  - {name: 🇮🇳 印度 v2rayfree.eu.org, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
-  - {name: 🇵🇱 波兰+v2rayfree.eu.org, server: 193.243.147.128, port: 40368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, tfo: false}
-  - {name: 🇺🇸 美国 Fastly全球Anycast节点, server: gov.uk, port: 443, client-fingerprint: chrome, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇯🇵 日本 v2rayfree.eu.org, server: ent1.imyourdaddy.top, port: 20987, client-fingerprint: chrome, type: trojan, password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, sni: sale.alibaba.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 Amazon数据中心, server: 13.37.208.64, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+, server: 40.172.67.243, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.20.18.142, port: 443, client-fingerprint: chrome, type: trojan, password: auto, sni: b96ef9ae.trojanfree-76s.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /b96ef9ae.trojanfree-76s.pages.dev/, headers: {Host: b96ef9ae.trojanfree-76s.pages.dev}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.16.149.244, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22271, client-fingerprint: chrome, type: trojan, password: 1a8050cd-50d8-4b7d-a73e-193222f39822, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.161.104, port: 443, client-fingerprint: chrome, type: trojan, password: auto, sni: b96ef9ae.trojanfree-76s.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /b96ef9ae.trojanfree-76s.pages.dev/, headers: {Host: b96ef9ae.trojanfree-76s.pages.dev}}}
+  - {name: 🇯🇵 日本 v2rayfree.eu.org 2, server: ent1.imyourdaddy.top, port: 20992, client-fingerprint: chrome, type: trojan, password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, sni: sale.alibaba.com, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省广州市 移动 2, server: 120.232.153.71, port: 43526, client-fingerprint: chrome, type: vmess, uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: cs.masjidd.homes, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: cs.masjidd.homes}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.19.45.35, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 104.19.47.65, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 162.159.140.93, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 162.159.44.205, port: 443, client-fingerprint: chrome, type: trojan, password: auto, sni: b96ef9ae.trojanfree-76s.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /b96ef9ae.trojanfree-76s.pages.dev/, headers: {Host: b96ef9ae.trojanfree-76s.pages.dev}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: 104.20.19.103, port: 443, client-fingerprint: chrome, type: trojan, password: auto, sni: b96ef9ae.trojanfree-76s.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /b96ef9ae.trojanfree-76s.pages.dev/, headers: {Host: b96ef9ae.trojanfree-76s.pages.dev}}}
+  - {name: 🇩🇰 丹麦 v2rayfree.eu.org, server: 195.85.59.95, port: 80, client-fingerprint: chrome, type: vmess, uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: open.alipay.ovh}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: masjide.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: masjide.org}}}
+  - {name: 🇷🇺 俄罗斯 v2rayfree.eu.org, server: m003.mmzhk.website, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /xyz, headers: {Host: daohang.mmzhk.website}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 11, server: 104.26.5.123, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 12, server: es.nurul.homes, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: linkvws, headers: {Host: es.nurul.homes}}}
+  - {name: 🇷🇺 俄罗斯 v2rayfree.eu.org 2, server: 89.23.103.249, port: 8081, client-fingerprint: chrome, type: vmess, uuid: e712c422-d801-47bb-8d4f-bec91d1b3945, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国+ 2, server: 40.172.49.150, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 13, server: 104.19.45.11, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 14, server: 198.41.220.5, port: 443, client-fingerprint: chrome, type: trojan, password: cb1f26aa437d4bfa9b841d28503ce8cc, sni: jobscareertoday.com, skip-cert-verify: false, network: ws, ws-opts: {path: 6b777a91, headers: {Host: jobscareertoday.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 15, server: 104.26.7.132, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 v2rayfree.eu.org, server: 66.241.124.229, port: 443, client-fingerprint: chrome, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
+  - {name: 🇨🇿 捷克+v2rayfree.eu.org, server: 79.127.239.84, port: 19175, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 5Au7NhFmcBqMnika4KVk7h4ZdV3wD4hFtJ8PJ3AlHzLeU1chEBaz19a643q7hBPV, tfo: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 16, server: 104.20.17.186, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 17, server: denc36.xtooltech.cfd, port: 443, client-fingerprint: chrome, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkws, headers: {Host: adenc36v.xtooltech.cfd}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 18, server: 172.66.47.53, port: 443, client-fingerprint: chrome, type: trojan, password: bpb-trojan, sni: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv, skip-cert-verify: false, network: ws, ws-opts: {path: /trSo3btsDgOHHUM6Nb, headers: {Host: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 19, server: 172.64.150.145, port: 443, client-fingerprint: chrome, type: trojan, password: bpb-trojan, sni: mindrOOm-5cz.pAgEs.dEV, skip-cert-verify: false, network: ws, ws-opts: {path: "/trC8BM8bTsAF0AnLYL?ed=2560", headers: {Host: mindrOOm-5cz.pAgEs.dEV}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 20, server: c.serkat.org, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: c.serkat.org, network: ws, ws-opts: {path: /, headers: {Host: c.serkat.org}}}
+  - {name: 🇺🇸 美国 v2rayfree.eu.org 2, server: 23.162.200.227, port: 443, client-fingerprint: chrome, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linkvws, headers: {Host: 23.162.200.227}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 21, server: 104.16.60.8, port: 80, client-fingerprint: chrome, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /obdii.cfd/linkws, headers: {Host: 4868-poetry-4868.napora7003.workers.dev}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 22, server: 172.64.167.44, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip3.6929198.xyz}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15085,20 +15186,82 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -15106,10 +15269,41 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -15121,20 +15315,82 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -15142,10 +15398,41 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -15162,10 +15449,41 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇬🇧 高性价比机场:https://kfyun.uk
+      - 🇯🇵 日本 v2rayfree.eu.org
+      - 🇺🇸 美国 Amazon数据中心
+      - 🇺🇸 美国+
       - 🇺🇸 美国 CloudFlare节点
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇵🇱 波兰+v2rayfree.eu.org
-      - 🇺🇸 美国 Fastly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇯🇵 日本 v2rayfree.eu.org 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇩🇰 丹麦 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇷🇺 俄罗斯 v2rayfree.eu.org 2
+      - 🇺🇸 美国+ 2
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 v2rayfree.eu.org
+      - 🇨🇿 捷克+v2rayfree.eu.org
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 v2rayfree.eu.org 2
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
