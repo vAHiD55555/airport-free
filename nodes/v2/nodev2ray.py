@@ -18,7 +18,7 @@ DAY = f"{day:02d}"
 
 # 构建URL列表
 urls = [
-    f"https://nodev2ray.com/uploads/{year}/{MONTH}/{year}{MONTH}{DAY}.txt",
+    f"https://nodev2ray.com/uploads/{year}/{MONTH}/0-{year}{MONTH}{DAY}.txt",
     f"https://nodev2ray.com/uploads/{year}/{MONTH}/1-{year}{MONTH}{DAY}.txt",
     f"https://nodev2ray.com/uploads/{year}/{MONTH}/2-{year}{MONTH}{DAY}.txt",
     f"https://nodev2ray.com/uploads/{year}/{MONTH}/3-{year}{MONTH}{DAY}.txt",
