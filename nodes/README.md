@@ -38,6 +38,7 @@
 ## 说明
 - 本源码已默认添加了5个节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
 - 修改README.md请前往：<strong>nodes/README.md</strong>
+- 由于python脚本搜集的clash有些节点是合并为一个文本，可能会导入失败，尽量用v2ray节点吧，好处理。
 
 ## 问题
 - 由于多个网站收录的节点有的可能重复，已做了去重处理，但可能仍有部分重复！
