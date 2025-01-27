@@ -27,4 +27,4 @@ for url in urls:
         response.raise_for_status()  # 检查请求是否成功
         print(response.text)
     except requests.exceptions.RequestException as e:
-        print(f"取到到节点")
+        print(f"未获取到到节点，错误代码：{e}")
