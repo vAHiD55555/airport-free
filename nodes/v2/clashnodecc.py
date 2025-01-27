@@ -19,11 +19,11 @@ DAY = f"{day:02d}"
 
 # 构建URL列表
 urls = [
-    f"https://clashnode.cc/uploads/{year}/{MONTH}/0-{year}{MONTH}{DAY}.txt",
-    f"https://clashnode.cc/uploads/{year}/{MONTH}/1-{year}{MONTH}{DAY}.txt",
-    f"https://clashnode.cc/uploads/{year}/{MONTH}/2-{year}{MONTH}{DAY}.txt",
-    f"https://clashnode.cc/uploads/{year}/{MONTH}/3-{year}{MONTH}{DAY}.txt",
-    f"https://clashnode.cc/uploads/{year}/{MONTH}/4-{year}{MONTH}{DAY}.txt",
+    f"https://node.clashnode.cc/uploads/{year}/{MONTH}/0-{year}{MONTH}{DAY}.txt",
+    f"https://node.clashnode.cc/uploads/{year}/{MONTH}/1-{year}{MONTH}{DAY}.txt",
+    f"https://node.clashnode.cc/uploads/{year}/{MONTH}/2-{year}{MONTH}{DAY}.txt",
+    f"https://node.clashnode.cc/uploads/{year}/{MONTH}/3-{year}{MONTH}{DAY}.txt",
+    f"https://node.clashnode.cc/uploads/{year}/{MONTH}/4-{year}{MONTH}{DAY}.txt",
 ]
 
 # 发起请求并打印结果
