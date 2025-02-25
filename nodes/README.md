@@ -37,9 +37,8 @@
 
 ## 说明
 - 本源码已默认添加了少许节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
-- 若各位有新的节点目标，可以copy本源码的py脚本，通过修改url的方式并[pullrequest](https://github.com/xiaoji235/airport-free/pulls)，如果不影响其他文件的话我会同意合并请求的
+- 若各位有新的节点目标，可以copy本源码的py脚本，通过修改url的方式并[Pull requests](https://github.com/xiaoji235/airport-free/pulls)，如果不影响其他文件的话我会同意合并请求的。
 - 修改README.md请前往：<strong>nodes/README.md</strong>
-- 由于python脚本搜集的clash有些节点是合并为一个文本，可能会导入失败，尽量用v2ray节点吧，好处理。
 
 ## 问题
 - 由于多个网站收录的节点有的可能重复，已做了去重处理，但可能仍有部分重复！
