@@ -36,7 +36,8 @@
 - 只需将clash的py脚本存放到 node/clash/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
 
 ## 说明
-- 本源码已默认添加了5个节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
+- 本源码已默认添加了少许节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
+- 若各位有新的节点目标，可以copy本源码的py脚本，通过修改url的方式并[pullrequest](https://github.com/xiaoji235/airport-free/pulls)，如果不影响其他文件的话我会同意合并请求的
 - 修改README.md请前往：<strong>nodes/README.md</strong>
 - 由于python脚本搜集的clash有些节点是合并为一个文本，可能会导入失败，尽量用v2ray节点吧，好处理。
 
