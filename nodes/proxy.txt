@@ -1,1 +1,1 @@
-https://ghproxy.monkeyray.net
+https://api-gh.muran.eu.org
