@@ -1,7 +1,7 @@
 # Airport-Free
 ## Free nodes, automatically renews subscription every 3h
 
-- Update time（UTC+8）：`2025-03-30 22:26:07`
+- Update time（UTC+8）：`2025-03-30 23:13:16`
 - [v2ray nodes all in one](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt).（Not recommended）
 - [v2ray nodes all in one](https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/v2ray.txt) （ you can use this if can not access）
 - Since CDN acceleration will cache and cause node updates to lag, you can go to [Github](https://github.com/xiaoji235/airport-free) fetch [clash files](https://github.com/xiaoji235/airport-free/tree/main/clash) or [v2ray files](https://github.com/xiaoji235/airport-free/tree/main/v2ray)
@@ -20,9 +20,7 @@
 <tr><td><strong>clash</strong></td>
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt">clash node 1</a></td>
 <td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt">clash node 2</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodefree.txt">clash node 3</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash node 4</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/wenode.txt">clash node 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash node 3</a></td>
 
 
 </tr>
@@ -42,9 +40,7 @@
 <tr><td><strong>clash</strong></td>
 <td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/clashnodecc.txt">clash node 1</a></td>
 <td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/naidounode.txt">clash node 2</a></td>
-<td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/nodefree.txt">clash node 3</a></td>
-<td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/v2rayshare.txt">clash node 4</a></td>
-<td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/wenode.txt">clash node 5</a></td>
+<td align="center"><a href="https://gh.7761.cf/https://github.com/xiaoji235/airport-free/blob/main/clash/v2rayshare.txt">clash node 3</a></td>
 
 
 </tr>
