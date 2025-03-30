@@ -1,73 +1,74 @@
 # Airport-Free
-## 免费节点，每3h自动更新订阅
+## Free nodes, automatically renews subscription every 3h
 
-- 更新时间（UTC+8）：`2025-03-30 11:34:21`
-- [v2ray节点多合一](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt)（不建议用这个，因为太多了系统ping不过来）
-- [v2ray节点多合一](https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray.txt)（如果第一个无法订阅就用这个）
-- 由于CDN加速会缓存导致节点更新滞后，可以前往[Github](https://github.com/xiaoji235/airport-free)获取<strong>v2ray.txt</strong>文件或者[clash](https://github.com/xiaoji235/airport-free/tree/main/clash)路径下的txt文件和[v2ray](https://github.com/xiaoji235/airport-free/tree/main/v2ray)路径下的txt文件。
+- 更新时间（UTC+8）：`2025-03-30 13:50:15`
+- [v2ray nodes all in one](https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray.txt).（Not recommended）
+- [v2ray nodes all in one](https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray.txt) （ you can use this if can not access）
+- Since CDN acceleration will cache and cause node updates to lag, you can go to [Github](https://github.com/xiaoji235/airport-free) fetch [clash files](https://github.com/xiaoji235/airport-free/tree/main/clash) or [v2ray files](https://github.com/xiaoji235/airport-free/tree/main/v2ray)
 
-### 已开启jsdelivr CDN加速：
+### Used jsdelivr CDN speedup：
 
 <table style="width:90%">
 <tr><td><strong>v2ray</strong></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/clashnodecc.txt">v2ray节点 1</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/naidounode.txt">v2ray节点 2</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/nodefree.txt">v2ray节点 3</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/v2rayshare.txt">v2ray节点 4</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/wenode.txt">v2ray节点 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/clashnodecc.txt">v2ray node 1</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/gh-mheidari98.txt">v2ray node 2</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/naidounode.txt">v2ray node 3</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/nodefree.txt">v2ray node 4</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/v2rayshare.txt">v2ray node 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/wenode.txt">v2ray node 6</a></td>
 
 
 </tr>
 <tr><td><strong>clash</strong></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt">clash节点 1</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt">clash节点 2</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodefree.txt">clash节点 3</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash节点 4</a></td>
-<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/wenode.txt">clash节点 5</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/clashnodecc.txt">clash node 1</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/naidounode.txt">clash node 2</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/nodefree.txt">clash node 3</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/v2rayshare.txt">clash node 4</a></td>
+<td align="center"><a href="https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/wenode.txt">clash node 5</a></td>
 
 
 </tr>
 </table>
 
-### 如果订阅更新不了再用这个：
+### If can not access：
 
 <table style="width:90%">
 <tr><td><strong>v2ray</strong></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/clashnodecc.txt">v2ray节点 1</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/naidounode.txt">v2ray节点 2</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/nodefree.txt">v2ray节点 3</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/v2rayshare.txt">v2ray节点 4</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/wenode.txt">v2ray节点 5</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/clashnodecc.txt">v2ray node 1</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/gh-mheidari98.txt">v2ray node 2</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/naidounode.txt">v2ray node 3</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/nodefree.txt">v2ray node 4</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/v2rayshare.txt">v2ray node 5</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/v2ray/wenode.txt">v2ray node 6</a></td>
 
 
 </tr>
 <tr><td><strong>clash</strong></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/clashnodecc.txt">clash节点 1</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/naidounode.txt">clash节点 2</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/nodefree.txt">clash节点 3</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/v2rayshare.txt">clash节点 4</a></td>
-<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/wenode.txt">clash节点 5</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/clashnodecc.txt">clash node 1</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/naidounode.txt">clash node 2</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/nodefree.txt">clash node 3</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/v2rayshare.txt">clash node 4</a></td>
+<td align="center"><a href="https://gh.b52m.cn/https://github.com/xiaoji235/airport-free/blob/main/clash/wenode.txt">clash node 5</a></td>
 
 
 </tr>
 </table>
 
-## 源码
-- 源码已开源，详情请移步[GitHub](https://github.com/xiaoji235/airport-free/tree/main)
+## Sources
+- The sources is opened [GitHub](https://github.com/xiaoji235/airport-free/tree/main)
 
-## 特点
-- 只需将v2ray的py脚本存放到 node/v2/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
-- 只需将clash的py脚本存放到 node/clash/ 当中后前往 <strong>action</strong> 运行workflow后即可看到输出结果。
+## Peculiarity
+- Just save the v2ray py script to node/v2/, go to <strong>the action</strong>, run the workflow, and you can see the output result.
+- Just save the clash py script to node/clash/, go to <strong>the action</strong>, run the workflow, and you can see the output result.
 
-## 说明
-- 本源码已默认添加了少许节点源，每隔3个小时自动检测更新，如果有新源欢迎大家前往[issues](https://github.com/xiaoji235/airport-free/issues)提交节点源！
-- 若各位有新的节点目标，可以copy本源码的py脚本，通过修改url的方式并[Pull requests](https://github.com/xiaoji235/airport-free/pulls)，如果不影响其他文件的话我会同意合并请求的。
-- 修改README.md请前往：<strong>nodes/README.md</strong>
+## Illustrate
+- This source code has added a few node sources by default, automatically detecting updates every 3 hours, if there is a new source, you are welcome to go to [issues](https://github.com/xiaoji235/airport-free/issues) to submit the node source!
+- To modify README.md, go to: <strong>nodes/README.md</strong>
 
-## 问题
-- 由于多个网站收录的节点有的可能重复，已做了去重处理，但可能仍有部分重复！
-- 部分网站可能会由于长城或站点自身原因将来可能无法访问就可能导致无法更新订阅！
+## Issues 🐞
+- Due to the possibility that some of the nodes included in multiple websites may be duplicated, deduplication has been done, but there may still be some duplicates!
+- Some websites may not be accessible in the future due to the GFW or the site itself, which may result in the inability to renew the subscription!
 
-## 提示
-- 所有数据来源于互联网，内容真实性请用户自行辨认。
-- 本源码仅供Python学习，禁止用于违法犯罪行为，否则后果自负！
+## Tips 💡
+- All data comes from the Internet, and users are required to identify the authenticity of the content.
+- This source code is only for Python learning, and it is forbidden to use it for illegal and criminal acts, otherwise you will bear the consequences!
