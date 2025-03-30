@@ -17,7 +17,7 @@
 </tr>
 </table>
 
-### If can not access：
+### If can not access,please access：
 
 <table style="width:90%">
 <tr><td><strong>v2ray</strong></td>
