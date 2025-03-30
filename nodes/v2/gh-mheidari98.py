@@ -19,9 +19,9 @@ DAY = f"{day:02d}"
 
 # 构建URL列表
 urls = [
-    f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/ss",
-    f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/trojan",
-    f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",
+    # f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/ss",
+    # f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/trojan",
+    # f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",
     f"https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vmess",
 ]
 
