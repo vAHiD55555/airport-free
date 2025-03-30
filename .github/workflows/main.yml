@@ -67,7 +67,7 @@ jobs:
         i=1
         for file in *.txt; do
           if [ -f "$file" ]; then
-            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash节点 $i</a></td>\n"
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/clash/$file\">clash node $i</a></td>\n"
             ((i++))
           fi
         done
@@ -83,7 +83,7 @@ jobs:
         i=1
         for file in *.txt; do
           if [ -f "$file" ]; then
-            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/$file\">v2ray节点 $i</a></td>\n"
+            list+="<td align=\"center\"><a href=\"https://cdn.jsdelivr.net/gh/xiaoji235/airport-free/v2ray/$file\">v2ray node $i</a></td>\n"
             ((i++))
           fi
         done
@@ -100,7 +100,7 @@ jobs:
         i=1
         for file in *.txt; do
           if [ -f "$file" ]; then
-            list+="<td align=\"center\"><a href=\"<PROXY>/https://github.com/xiaoji235/airport-free/blob/main/clash/$file\">clash节点 $i</a></td>\n"
+            list+="<td align=\"center\"><a href=\"<PROXY>/https://github.com/xiaoji235/airport-free/blob/main/clash/$file\">clash node $i</a></td>\n"
             ((i++))
           fi
         done
@@ -116,7 +116,7 @@ jobs:
         i=1
         for file in *.txt; do
           if [ -f "$file" ]; then
-            list+="<td align=\"center\"><a href=\"<PROXY>/https://github.com/xiaoji235/airport-free/blob/main/v2ray/$file\">v2ray节点 $i</a></td>\n"
+            list+="<td align=\"center\"><a href=\"<PROXY>/https://github.com/xiaoji235/airport-free/blob/main/v2ray/$file\">v2ray node $i</a></td>\n"
             ((i++))
           fi
         done
@@ -146,7 +146,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A
         if [[ `git status --porcelain` ]]; then
-          git commit -m "节点更新" && git push
+          git commit -m "Nodes Update" && git push
         else
-          echo "任务完成，节点无变化。"
+          echo "Not commit."
         fi
