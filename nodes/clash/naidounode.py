@@ -17,7 +17,7 @@ DAY = f"{day:02d}"
 
 # 构建URL列表
 urls = [
-    f"https://naidounode.cczzuu.top/node/{year}{MONTH}{DAY}-clash.yaml"
+    f"http://naidounode.cczzuu.top/node/{year}{MONTH}{DAY}-clash.yaml"
 ]
 
 # 发起请求并打印结果
