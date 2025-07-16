@@ -1,1 +1,1 @@
-https://ghproxy.gpnu.org
+https://git.mokoc.live
