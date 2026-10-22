@@ -2,4 +2,4 @@
 未获取到到节点，错误代码:526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/1-20261022.txt
 未获取到到节点，错误代码:526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/2-20261022.txt
 未获取到到节点，错误代码:526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/3-20261022.txt
-未获取到到节点，错误代码:526 Server Error: <none> for url: https://node.clashnode.cc/uploads/2026/10/4-20261022.txt
+未获取到到节点，错误代码:('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
